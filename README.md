@@ -33,21 +33,19 @@ This repository serves as a live, practical record of my journey to master Pytho
 
 ## 🗺️ 100 Days Journey Breakdown
 
-```
- ┌────────────────────────────────────────────────────────────────────────┐
- │ 🟢 Phase 1 (Days 01-14)  : Beginner Mastery (Syntax, Logic, Loops)     │
- │ 🟡 Phase 2 (Days 15-53)  : Intermediate (OOP, APIs, Web Scraping, GUI)  │
- │ 🔵 Phase 3 (Days 54-71)  : Web Dev & Databases (Flask, SQL, Auth)      │
- │ 🟣 Phase 4 (Days 72-81)  : Data Science & ML (Pandas, Plotly, Stats)   │
- │ 🔴 Phase 5 (Days 82-100) : Capstone Portfolio Projects                 │
- └────────────────────────────────────────────────────────────────────────┘
-```
+| Phase | Duration | Focus & Core Milestones |
+| :---: | :---: | :--- |
+| 🟢 **Phase 1** | Days 01–14 | **Beginner Mastery** (Syntax, Control Flow, Functions & Logic) |
+| 🟡 **Phase 2** | Days 15–53 | **Intermediate** (OOP, APIs, Web Scraping, GUI Apps) |
+| 🔵 **Phase 3** | Days 54–71 | **Web Dev & Databases** (Flask, REST APIs, SQL, Auth) |
+| 🟣 **Phase 4** | Days 72–81 | **Data Science & ML** (NumPy, Pandas, Plotly, Statistics) |
+| 🔴 **Phase 5** | Days 82–100 | **Capstone Portfolio Projects** (Full-Stack & AI Pipelines) |
 
 ---
 
 ## 📊 Progress Tracker & Project Catalogue
 
-### 🟢 Phase 1: Python Fundamentals (Days 1 – 14)
+### 🟢 Phase 1: Python Fundamentals (Days 01 – 14)
 
 | Day | Project Name | Key Concepts Learned | Code Link |
 | :---: | :--- | :--- | :---: |
