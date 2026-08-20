@@ -51,15 +51,15 @@ This repository serves as a live, practical record of my journey to master Pytho
 
 | Day | Project Name | Key Concepts Learned | Code Link |
 | :---: | :--- | :--- | :---: |
-| **01** | 🎸 **Band Name Generator** | Strings, Input/Output, Variable Manipulation | [View Code](./Day%201/band_name_generator.py) |
-| **02** | 💸 **Tip Calculator** | Data Types, Mathematical Operators, Number Formatting | [View Code](./Day%202/tip_calculator.py) |
-| **03** | 🏴‍☠️ **Treasure Island** | Conditional Statements, Nested `if/elif/else`, Control Flow | [View Code](./Day%203/treasure_island.py) |
-| **04** | ✂️ **Rock Paper Scissors** | Randomization (`random` module), Python Lists, Indexing | [View Code](./Day%204/rock_paper_scissors.py) |
-| **05** | 🔐 **PyPassword Generator** | `for` Loops, `range()`, List Shuffling, String Join | [View Code](./Day%205/password_generator.py) |
-| **06** | 🤖 **Escaping the Maze** | Functions, Indentation, `while` Loops, Algorithmic Logic | [View Code](./Day%206/escaping_the_maze.py) |
-| **07** | 🎯 **Hangman Game** | Game Loops, State Tracking, String & List Manipulation | [View Code](./Day%207/hangman.py) |
-| **08** | 🔐 **Caesar Cipher** | Functions with Parameters, Positional & Keyword Args | [View Code](./Day%208/caesar_cipher.py) |
-| **09** | 🔨 **Secret Silent Auction** | Python Dictionaries, Key-Value Nesting, Console Privacy | [View Code](./Day%209/secret_auction.py) |
+| **01** | 🎸 **Band Name Generator** | Strings, Input/Output, Variable Manipulation | [View Code](./Day%2001/band_name_generator.py) |
+| **02** | 💸 **Tip Calculator** | Data Types, Mathematical Operators, Number Formatting | [View Code](./Day%2002/tip_calculator.py) |
+| **03** | 🏴‍☠️ **Treasure Island** | Conditional Statements, Nested `if/elif/else`, Control Flow | [View Code](./Day%2003/treasure_island.py) |
+| **04** | ✂️ **Rock Paper Scissors** | Randomization (`random` module), Python Lists, Indexing | [View Code](./Day%2004/rock_paper_scissors.py) |
+| **05** | 🔐 **PyPassword Generator** | `for` Loops, `range()`, List Shuffling, String Join | [View Code](./Day%2005/password_generator.py) |
+| **06** | 🤖 **Escaping the Maze** | Functions, Indentation, `while` Loops, Algorithmic Logic | [View Code](./Day%2006/escaping_the_maze.py) |
+| **07** | 🎯 **Hangman Game** | Game Loops, State Tracking, String & List Manipulation | [View Code](./Day%2007/hangman.py) |
+| **08** | 🔐 **Caesar Cipher** | Functions with Parameters, Positional & Keyword Args | [View Code](./Day%2008/caesar_cipher.py) |
+| **09** | 🔨 **Secret Silent Auction** | Python Dictionaries, Key-Value Nesting, Console Privacy | [View Code](./Day%2009/secret_auction.py) |
 | **10** | 🧮 **Calculator** | Functions with Outputs, Recursion, Arithmetic Operations | [View Code](./Day%2010/calculator.py) |
 | **...** | *Days 11–14* | Blackjack, Guess the Number, Higher Lower Game | *Upcoming* |
 
@@ -89,7 +89,7 @@ Want to test out any of the projects locally? Follow these steps:
 
 2. **Navigate to any project directory:**
    ```bash
-   cd "Day 9"
+   cd "Day 09"
    ```
 
 3. **Run the script:**
