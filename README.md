@@ -60,7 +60,7 @@ This repository serves as a live, practical record of my journey to master Pytho
 | **07** | 🎯 **Hangman Game** | Game Loops, State Tracking, String & List Manipulation | [View Code](./Day%207/hangman.py) |
 | **08** | 🔐 **Caesar Cipher** | Functions with Parameters, Positional & Keyword Args | [View Code](./Day%208/caesar_cipher.py) |
 | **09** | 🔨 **Secret Silent Auction** | Python Dictionaries, Key-Value Nesting, Console Privacy | [View Code](./Day%209/secret_auction.py) |
-| **10** | 🧮 **Calculator** | Functions with Outputs, Recursion, Arithmetic Operations | *In Progress* |
+| **10** | 🧮 **Calculator** | Functions with Outputs, Recursion, Arithmetic Operations | [View Code](./Day%2010/calculator.py) |
 | **...** | *Days 11–14* | Blackjack, Guess the Number, Higher Lower Game | *Upcoming* |
 
 ---
