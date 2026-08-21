@@ -59,7 +59,8 @@ This repository serves as a live, practical record of my journey to master Pytho
 | **08** | 🔐 **Caesar Cipher** | Functions with Parameters, Positional & Keyword Args | [View Code](./Day%2008/caesar_cipher.py) |
 | **09** | 🔨 **Secret Silent Auction** | Python Dictionaries, Key-Value Nesting, Console Privacy | [View Code](./Day%2009/secret_auction.py) |
 | **10** | 🧮 **Calculator** | Functions with Outputs, Recursion, Arithmetic Operations | [View Code](./Day%2010/calculator.py) |
-| **...** | *Days 11–14* | Blackjack, Guess the Number, Higher Lower Game | *Upcoming* |
+| **11** | 🃏 **Blackjack Capstone** | Game Engine Logic, List Operations, Scope & Game Loops | [View Code](./Day%2011/blackjack.py) |
+| **...** | *Days 12–14* | Guess the Number, Scope & Variable Lifecycles, Higher Lower Game | *Upcoming* |
 
 ---
 
