@@ -60,6 +60,7 @@ This repository serves as a live, practical record of my journey to master Pytho
 | **09** | 🔨 **Secret Silent Auction** | Python Dictionaries, Key-Value Nesting, Console Privacy | [View Code](./Day%2009/secret_auction.py) |
 | **10** | 🧮 **Calculator** | Functions with Outputs, Recursion, Arithmetic Operations | [View Code](./Day%2010/calculator.py) |
 | **11** | 🃏 **Blackjack Capstone** | Game Engine Logic, List Operations, Scope & Game Loops | [View Code](./Day%2011/blackjack.py) |
+| **12** | 🎲 **Number Guessing Game** | Local vs Global Scope, Constants, Game Loops & Difficulty Settings | [View Code](./Day%2012/number_guessing_game.py) |
 | **13** | 🕵️‍♂️ **PyDetective (CLI Bug Hunter)** | Debugging Methodologies, Assertion Suites, Scope & State Mutations | [View Code](./Day%2013/day_13_project.py) |
 | **...** | *Day 14* | Higher Lower Game Capstone | *Upcoming* |
 
