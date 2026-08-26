@@ -66,6 +66,14 @@ This repository serves as a live, practical record of my journey to master Pytho
 
 ---
 
+### 🟡 Phase 2: Intermediate Python (Days 15 – 53)
+
+| Day | Project Name | Key Concepts Learned | Code Link |
+| :---: | :--- | :--- | :---: |
+| **15** | ☕ **Coffee Machine** | Dictionaries & Data Structures, Resource Management, State Tracking, Currency Processing | [View Code](./Day%2015/coffee_machine.py) |
+
+---
+
 ## 🛠️ Tech Stack Showcase
 
 | Category | Technologies & Tools |
