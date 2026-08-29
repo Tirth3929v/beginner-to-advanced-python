@@ -73,6 +73,8 @@ This repository serves as a live, practical record of my journey to master Pytho
 | **15** | ☕ **Coffee Machine** | Dictionaries & Data Structures, Resource Management, State Tracking, Currency Processing | [View Code](./Day%2015/coffee_machine.py) |
 | **16** | ☕ **OOP Coffee Machine** | Object-Oriented Programming (OOP), Classes & Objects, Encapsulation, Modular Architecture | [View Code](./Day%2016/main.py) |
 | **17** | 🧠 **Quiz Game (OOP)** | Custom Classes, Attributes, Methods, Encapsulation & Game Loop Engine | [View Code](./Day%2017/main.py) |
+| **18** | 🎨 **Turtle Graphics & Hirst Spot Painting** | Turtle Module, GUI Canvas Rendering, RGB Tuples, Color Palette Algorithms | [View Code](./Day%2018/main.py) |
+
 
 
 
