@@ -16,9 +16,11 @@ HIRST_PALETTE = [
 ]
 
 
-def generate_hirst_painting(grid_size: int = 10, dot_radius: int = 20, spacing: int = 50):
+def generate_hirst_painting(grid_size: int = 10, dot_size: int = 20, spacing: int = 50):
     """Generates a 10x10 Damien Hirst style spot painting on canvas using Turtle graphics."""
     screen = t.Screen()
+    screen.clearscreen()
+    screen.setup(width=750, height=750)
     screen.title("Day 18 - Damien Hirst Spot Painting Generator")
     screen.bgcolor("#fafafa")
     t.colormode(255)
@@ -29,7 +31,7 @@ def generate_hirst_painting(grid_size: int = 10, dot_radius: int = 20, spacing: 
     artist.penup()
     artist.hideturtle()
 
-    # Calculate starting offsets to center the grid
+    # Calculate starting offsets to center the grid exactly in the window
     start_x = -((grid_size - 1) * spacing) / 2
     start_y = -((grid_size - 1) * spacing) / 2
     artist.setposition(start_x, start_y)
@@ -39,7 +41,7 @@ def generate_hirst_painting(grid_size: int = 10, dot_radius: int = 20, spacing: 
     for row in range(grid_size):
         for col in range(grid_size):
             color = random.choice(HIRST_PALETTE)
-            artist.dot(dot_radius, color)
+            artist.dot(dot_size, color)
             if col < grid_size - 1:
                 artist.forward(spacing)
 
