@@ -75,6 +75,8 @@ This repository serves as a live, practical record of my journey to master Pytho
 | **17** | 🧠 **Quiz Game (OOP)** | Custom Classes, Attributes, Methods, Encapsulation & Game Loop Engine | [View Code](./Day%2017/main.py) |
 | **18** | 🎨 **Turtle Graphics & Hirst Spot Painting** | Turtle Module, GUI Canvas Rendering, RGB Tuples, Color Palette Algorithms | [View Code](./Day%2018/main.py) |
 | **19** | 🐢 **Turtle Race & Etch-a-Sketch** | Event Listeners, Multiple Turtle Instances, State Management, Higher-Order Functions | [View Code](./Day%2019/main.py) |
+| **20** | 🐍 **Snake Game (Part 1)** | OOP Architecture, Screen Tracer, Frame Refresh Control, Coordinate Movement Logic | [View Code](./Day%2020/main.py) |
+
 
 
 
