@@ -9,7 +9,7 @@ RIGHT = 0
 
 
 class Snake:
-    """Models the Snake body composed of Turtle object segments and directional controls."""
+    """Models the Snake body with distinct head styling, growth, reset capability, and direction locks."""
 
     def __init__(self):
         self.segments: list[t.Turtle] = []
@@ -17,20 +17,40 @@ class Snake:
         self.head: t.Turtle = self.segments[0]
 
     def create_snake(self) -> None:
-        """Instantiates the initial 3-segment snake body."""
+        """Instantiates initial snake segments with distinct head and body shapes."""
         for position in STARTING_POSITIONS:
             self.add_segment(position)
+        self.head = self.segments[0]
 
-    def add_segment(self, position: tuple[int, int]) -> None:
-        """Adds a new square turtle segment to the snake body at the specified coordinates."""
-        new_segment = t.Turtle("square")
-        new_segment.color("#a6e3a1")  # Mint green snake color
+    def add_segment(self, position: tuple[float, float]) -> None:
+        """Adds a segment; head is round circle, body segments are sleek rounded squares."""
+        if len(self.segments) == 0:
+            # Head segment
+            new_segment = t.Turtle("circle")
+            new_segment.color("#a6e3a1")  # Bright mint green head
+        else:
+            # Body segment
+            new_segment = t.Turtle("square")
+            new_segment.color("#94e2d5")  # Soft teal body
+
         new_segment.penup()
         new_segment.goto(position)
         self.segments.append(new_segment)
 
+    def extend(self) -> None:
+        """Appends a new body segment to the tail of the snake."""
+        self.add_segment(self.segments[-1].position())
+
+    def reset(self) -> None:
+        """Clears all old segments off-screen and resets snake to initial state."""
+        for segment in self.segments:
+            segment.goto(1000, 1000)
+            segment.hideturtle()
+        self.segments.clear()
+        self.create_snake()
+
     def move(self) -> None:
-        """Moves each segment to the position of the preceding segment to maintain body cohesion."""
+        """Moves each segment to the position of preceding segment to maintain body cohesion."""
         for seg_num in range(len(self.segments) - 1, 0, -1):
             new_x = self.segments[seg_num - 1].xcor()
             new_y = self.segments[seg_num - 1].ycor()
