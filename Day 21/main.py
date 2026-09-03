@@ -33,14 +33,14 @@ def draw_arena_border() -> None:
 
 
 def main():
-    """Main execution entrypoint for Retro Snake Arcade Capstone (Day 21)."""
+    """Main execution entrypoint for Day 21 - Retro Snake Arcade Capstone Edition."""
     print(logo)
-    print("Welcome to Retro Snake Arcade Capstone! 🐍🕹️\n")
+    print("Welcome to Retro Snake Arcade Capstone Edition! 🐍🕹️\n")
 
     screen = t.Screen()
     screen.setup(width=850, height=650)
     screen.bgcolor("#1e1e2e")
-    screen.title("Day 21 - Retro Snake Arcade Capstone")
+    screen.title("Day 21 - Retro Snake Arcade (Enhanced Capstone Edition)")
 
     screen.tracer(0)
     draw_arena_border()
@@ -50,6 +50,8 @@ def main():
     scoreboard = Scoreboard()
 
     print("🕹️ Controls: Use Arrow Keys or [W, A, S, D] to steer!")
+    print("⭐ Bonus: Golden turtles award +3 bonus points!")
+    print("⚡ Speed: Snake speeds up as your score increases!")
     print("🔄 Restart: Press [ R ] or [ SPACE ] when Game Over!")
     print("✨ Close window to exit loop.\n")
 
@@ -83,15 +85,21 @@ def main():
         try:
             while game_state["is_on"]:
                 screen.update()
-                time.sleep(0.13)
+
+                # Dynamic Speed Scaling: base sleep is 0.13s, speeds up slightly every score threshold down to 0.05s max
+                speed_delay = max(0.05, 0.13 - (scoreboard.score * 0.003))
+                time.sleep(speed_delay)
 
                 snake.move()
 
-                # 1. Detect collision with food
+                # 1. Detect collision with food (regular or golden bonus food)
                 if snake.head.distance(food) < 18:
+                    earned_points = food.points
+                    # Extend snake segments based on food value
+                    for _ in range(earned_points):
+                        snake.extend()
+                    scoreboard.increase_score(earned_points)
                     food.refresh()
-                    snake.extend()
-                    scoreboard.increase_score()
 
                 # 2. Detect collision with wall boundaries
                 if (
@@ -105,7 +113,7 @@ def main():
                     screen.update()
                     break
 
-                # 3. Detect collision with tail segments
+                # 3. Detect collision with tail using Python list slicing (snake.segments[1:])
                 for segment in snake.segments[1:]:
                     if snake.head.distance(segment) < 10:
                         game_state["is_on"] = False
@@ -127,3 +135,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

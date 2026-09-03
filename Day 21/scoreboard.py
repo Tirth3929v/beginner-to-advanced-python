@@ -1,23 +1,44 @@
+import os
 import turtle as t
 
 ALIGNMENT = "center"
 FONT = ("Courier", 16, "bold")
 GAME_OVER_FONT = ("Courier", 26, "bold")
 RESTART_FONT = ("Courier", 14, "bold")
+DATA_FILE = os.path.join(os.path.dirname(__file__), "data.txt")
 
 
 class Scoreboard(t.Turtle):
-    """Manages game score tracking, high score persistence, HUD display, and Game Over restart prompt."""
+    """Manages game score tracking, persistent file high score (data.txt), HUD display, and restart prompt."""
 
     def __init__(self):
         super().__init__()
         self.score = 0
-        self.high_score = 0
-        self.color("#cdd6f4")  # High contrast crisp light text color
+        self.high_score = self.load_high_score()
+        self.color("#cdd6f4")  # High contrast light text color
         self.penup()
         self.hideturtle()
         self.goto(0, 260)
         self.update_scoreboard()
+
+    def load_high_score(self) -> int:
+        """Reads high score from data.txt file, defaulting to 0 if file is missing or unreadable."""
+        if os.path.exists(DATA_FILE):
+            try:
+                with open(DATA_FILE, "r", encoding="utf-8") as file:
+                    content = file.read().strip()
+                    return int(content) if content.isdigit() else 0
+            except Exception:
+                return 0
+        return 0
+
+    def save_high_score(self) -> None:
+        """Saves current high score to data.txt file for persistent storage across sessions."""
+        try:
+            with open(DATA_FILE, "w", encoding="utf-8") as file:
+                file.write(str(self.high_score))
+        except Exception:
+            pass
 
     def update_scoreboard(self) -> None:
         """Clears and renders current score and high score at top center of canvas."""
@@ -29,17 +50,19 @@ class Scoreboard(t.Turtle):
             font=FONT,
         )
 
-    def increase_score(self) -> None:
-        """Increments score count by 1 and updates HUD display."""
-        self.score += 1
+    def increase_score(self, points: int = 1) -> None:
+        """Increments score count by specified points and updates HUD display."""
+        self.score += points
         if self.score > self.high_score:
             self.high_score = self.score
+            self.save_high_score()
         self.update_scoreboard()
 
     def game_over(self) -> None:
         """Displays GAME OVER banner and Restart prompt in center of screen."""
         if self.score > self.high_score:
             self.high_score = self.score
+            self.save_high_score()
             self.update_scoreboard()
 
         self.goto(0, 30)
@@ -52,6 +75,10 @@ class Scoreboard(t.Turtle):
 
     def reset_score(self) -> None:
         """Resets current score to 0 and redraws score HUD."""
+        if self.score > self.high_score:
+            self.high_score = self.score
+            self.save_high_score()
         self.score = 0
         self.color("#cdd6f4")
         self.update_scoreboard()
+
