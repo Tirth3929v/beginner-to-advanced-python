@@ -77,6 +77,8 @@ This repository serves as a live, practical record of my journey to master Pytho
 | **19** | 🐢 **Turtle Race & Etch-a-Sketch** | Event Listeners, Multiple Turtle Instances, State Management, Higher-Order Functions | [View Code](./Day%2019/main.py) |
 | **20** | 🐍 **Snake Game (Part 1)** | OOP Architecture, Screen Tracer, Frame Refresh Control, Coordinate Movement Logic | [View Code](./Day%2020/main.py) |
 | **21** | 🐍 **Snake Game (Part 2 Capstone)** | Class Inheritance, Food Spawning, Collision Engine, Scoreboard HUD & High Score | [View Code](./Day%2021/main.py) |
+| **22** | 🏓 **The Famous Pong Arcade Game** | 2D Physics Motion Vectors, Paddle Class Inheritance, Wall/Paddle Bounces, Center Net | [View Code](./Day%2022/main.py) |
+
 
 
 
