@@ -15,10 +15,36 @@ if sys.platform == "win32":
         pass
 
 
+def display_game_info() -> bool:
+    """Displays ASCII art logo, game features, controls guide, and prompts user to start."""
+    print(logo)
+    print("Welcome to Turtle Crossing Capstone Game! 🐢🚗")
+    print("─" * 78)
+    print("📖 GAME RULES & FEATURES:")
+    print("   🎯 Objective      : Guide your turtle safely across busy multi-lane highway traffic!")
+    print("   🚩 Finish Line    : Reach the top of the canvas to complete the level.")
+    print("   ⚡ Level Up       : Every successful crossing resets your position and accelerates car speeds!")
+    print("   💥 Danger Zone    : Avoid colliding with any moving car (Game Over on impact).")
+    print("─" * 78)
+    print("🕹️ GAME CONTROLS:")
+    print("   ⬆️  Forward  : [ Up Arrow ]   or [ W ]")
+    print("   ⬇️  Backward : [ Down Arrow ] or [ S ]")
+    print("   ⬅️  Left     : [ Left Arrow ] or [ A ]")
+    print("   ➡️  Right    : [ Right Arrow ] or [ D ]")
+    print("─" * 78)
+
+    user_input = input("\n👉 Press [ENTER] to launch the game window (or type 'q' to exit): ").strip().lower()
+    if user_input in ["q", "quit", "exit"]:
+        print("\nExiting game... Goodbye! 👋\n")
+        return False
+    print("\n🚀 Launching Turtle Crossing Arcade Window... Have fun! 🎮\n")
+    return True
+
+
 def main():
     """Main execution entrypoint for Turtle Crossing Capstone Game."""
-    print(logo)
-    print("Welcome to Turtle Crossing Capstone Game! 🐢🚗\n")
+    if not display_game_info():
+        return
 
     screen = t.Screen()
     screen.setup(width=600, height=600)
@@ -42,9 +68,11 @@ def main():
     screen.onkey(player.go_down, "s")
     screen.onkey(player.go_left, "a")
     screen.onkey(player.go_right, "d")
+    screen.onkey(player.go_up, "W")
+    screen.onkey(player.go_down, "S")
+    screen.onkey(player.go_left, "A")
+    screen.onkey(player.go_right, "D")
 
-    print("🕹️ Controls: Use Arrow Keys or [W, A, S, D] to cross the traffic lanes!")
-    print("✨ Close GUI window to exit loop.\n")
 
     game_is_on = True
     try:
