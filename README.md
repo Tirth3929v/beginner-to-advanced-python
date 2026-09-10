@@ -80,6 +80,8 @@ This repository serves as a live, practical record of my journey to master Pytho
 | **22** | 🏓 **The Famous Pong Arcade Game** | 2D Physics Motion Vectors, Paddle Class Inheritance, Wall/Paddle Bounces, Center Net | [View Code](./Day%2022/main.py) |
 | **23** | 🐢 **Turtle Crossing Capstone** | Multi-Lane Traffic Spawning, OOP Collision Engine, Speed Level Acceleration | [View Code](./Day%2023/main.py) |
 | **24** | ✉️ **Mail Merge Automation** | File I/O, Context Managers (`with`), Relative & Absolute Paths, String Replacement | [View Code](./Day%2024/main.py) |
+| **25** | 🐼 **CSV Data & Pandas Analytics** | Data Frames, Series Filtering, CSV Processing, Coordinate Plotting & Data Exports | [View Code](./Day%2025/main.py) |
+
 
 
 
