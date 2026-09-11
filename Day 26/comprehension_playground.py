@@ -71,20 +71,27 @@ def run_nato_quiz():
     print("─" * 55)
     print("Test your aviation phonetic knowledge! Type the code word for each letter.\n")
 
-    sample_letters = random.sample(letters, total_rounds)
-    for i, letter in enumerate(sample_letters, 1):
-        correct_code = phonetic_dict[letter]
-        user_guess = input(f"Q{i}. What is the NATO phonetic word for letter '{letter}'? : ").strip()
+    try:
+        sample_letters = random.sample(letters, total_rounds)
+        for i, letter in enumerate(sample_letters, 1):
+            correct_code = phonetic_dict[letter]
+            user_guess = input(f"Q{i}. What is the NATO phonetic word for letter '{letter}'? : ").strip()
 
-        if user_guess.lower() == correct_code.lower():
-            score += 1
-            print(f"   ✅ Correct! '{letter}' is for {correct_code}.\n")
-        else:
-            print(f"   ❌ Incorrect! '{letter}' is for {correct_code}.\n")
+            if user_guess.lower() == correct_code.lower():
+                score += 1
+                print(f"   ✅ Correct! '{letter}' is for {correct_code}.\n")
+            else:
+                print(f"   ❌ Incorrect! '{letter}' is for {correct_code}.\n")
 
-    percentage = (score / total_rounds) * 100
-    print(f"🏆 Quiz Finished! Final Score: {score}/{total_rounds} ({percentage:.0f}%)\n")
+        percentage = (score / total_rounds) * 100
+        print(f"🏆 Quiz Finished! Final Score: {score}/{total_rounds} ({percentage:.0f}%)\n")
+    except (KeyboardInterrupt, EOFError):
+        print("\n\n↩️ Quiz cancelled. Returning to menu...\n")
 
 
 if __name__ == "__main__":
-    run_comprehension_demos()
+    try:
+        run_comprehension_demos()
+    except (KeyboardInterrupt, EOFError):
+        print("\n\n👋 Goodbye!\n")
+

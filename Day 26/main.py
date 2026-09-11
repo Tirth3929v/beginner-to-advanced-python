@@ -17,26 +17,33 @@ def main():
     print(logo)
     print("Welcome to Day 26 - List Comprehensions & NATO Phonetic Alphabet Studio! 📡🔤\n")
 
-    while True:
-        print("Choose an activity:")
-        print(" 1. 🔤 NATO Phonetic Alphabet Word Translator")
-        print(" 2. 🎯 NATO Aviation Spelling Quiz (Practice Mode)")
-        print(" 3. 🧪 Comprehension Playground (List & Dict Demos)")
-        print(" 4. 🚪 Exit\n")
+    try:
+        while True:
+            print("Choose an activity:")
+            print(" 1. 🔤 NATO Phonetic Alphabet Word Translator")
+            print(" 2. 🎯 NATO Aviation Spelling Quiz (Practice Mode)")
+            print(" 3. 🧪 Comprehension Playground (List & Dict Demos)")
+            print(" 4. 🚪 Exit\n")
 
-        choice = input("👉 Enter choice (1-4): ").strip()
-        if choice == "1":
-            run_nato_encoder()
-        elif choice == "2":
-            run_nato_quiz()
-        elif choice == "3":
-            run_comprehension_demos()
-        elif choice == "4":
-            print("\nExiting NATO Studio... Goodbye! 👋\n")
-            break
-        else:
-            print("⚠️ Invalid choice! Please select 1, 2, 3, or 4.\n")
+            choice = input("👉 Enter choice (1-4): ").strip()
+            if choice == "1":
+                run_nato_encoder()
+            elif choice == "2":
+                run_nato_quiz()
+            elif choice == "3":
+                run_comprehension_demos()
+            elif choice == "4":
+                print("\nExiting NATO Studio... Goodbye! 👋\n")
+                break
+            else:
+                print("⚠️ Invalid choice! Please select 1, 2, 3, or 4.\n")
+    except (KeyboardInterrupt, EOFError):
+        print("\n\n👋 Exiting NATO Studio gracefully... Goodbye!\n")
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except (KeyboardInterrupt, EOFError):
+        print("\n\n👋 Goodbye!\n")
+

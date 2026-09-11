@@ -53,7 +53,12 @@ def run_nato_encoder():
     print("Type 'exit' to return to menu.\n")
 
     while True:
-        user_input = input("👉 Enter a word: ").strip()
+        try:
+            user_input = input("👉 Enter a word: ").strip()
+        except (KeyboardInterrupt, EOFError):
+            print("\n\n↩️ Returning to menu...\n")
+            break
+
         if user_input.lower() in ["exit", "q", "quit"]:
             break
 
@@ -69,4 +74,8 @@ def run_nato_encoder():
 
 
 if __name__ == "__main__":
-    run_nato_encoder()
+    try:
+        run_nato_encoder()
+    except (KeyboardInterrupt, EOFError):
+        print("\n\n👋 Goodbye!\n")
+
