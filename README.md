@@ -82,6 +82,8 @@ This repository serves as a live, practical record of my journey to master Pytho
 | **24** | ✉️ **Mail Merge Automation** | File I/O, Context Managers (`with`), Relative & Absolute Paths, String Replacement | [View Code](./Day%2024/main.py) |
 | **25** | 🐼 **CSV Data & Pandas Analytics** | Data Frames, Series Filtering, CSV Processing, Coordinate Plotting & Data Exports | [View Code](./Day%2025/main.py) |
 | **26** | 📡 **NATO Phonetic Alphabet** | List & Dictionary Comprehensions, Pandas DataFrame Iteration, KeyError Handling | [View Code](./Day%2026/main.py) |
+| **27** | 🖥️ **Tkinter GUI Unit Converter** | Desktop GUIs with Tkinter, *args & **kwargs, Grid Layout System, Event Callbacks | [View Code](./Day%2027/main.py) |
+
 
 
 
