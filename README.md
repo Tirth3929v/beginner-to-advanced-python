@@ -85,6 +85,7 @@ This repository serves as a live, practical record of my journey to master Pytho
 | **27** | 🖥️ **Tkinter GUI Unit Converter** | Desktop GUIs with Tkinter, *args & **kwargs, Grid Layout System, Event Callbacks | [View Code](./Day%2027/main.py) |
 | **28** | 🍅 **Pomodoro Timer GUI** | Tkinter Canvas Vector Rendering, Dynamic Typing, Event Scheduling with after() | [View Code](./Day%2028/main.py) |
 | **29** | 🔐 **MyPass Password Manager GUI** | Tkinter Canvas Vector Padlock, Messagebox Dialogs, High-Entropy Passwords, File Vault | [View Code](./Day%2029/main.py) |
+| **30** | 🛡️ **Errors, Exceptions & JSON Data** | try-except-else-finally Lifecycle, Raising Custom Exceptions, Resilient JSON Data Vault & NATO V2 | [View Code](./Day%2030/main.py) |
 
 
 
