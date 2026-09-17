@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}About • Clean Blog{% endblock %}
+
+{% block header_img %}https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80{% endblock %}
+{% block heading %}About The Capstone{% endblock %}
+{% block subheading %}Relational DB Architecture, Role-Based Access Control &amp; Discussion Hub{% endblock %}
+
+{% block content %}
+<div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+            <div class="card card-custom p-4 p-md-5">
+                <h3 class="fw-bold mb-3">Day 69 Capstone Architecture</h3>
+                <p class="text-secondary lh-lg">
+                    This project culminates the multi-day Web Development &amp; Architecture module in the <strong>#100DaysOfCode</strong> curriculum. It introduces modern bidirectional relational data modeling, secure role-based access control (RBAC), and multi-user interaction.
+                </p>
+                
+                <h4 class="fw-bold mt-4 mb-3">Key Technical Highlights:</h4>
+                <ul class="list-group list-group-flush mb-4">
+                    <li class="list-group-item px-0">
+                        <strong>SQLAlchemy 2.0 Bidirectional Relationships:</strong> 
+                        <code>User</code> acts as a parent to both <code>BlogPost</code> (articles authored) and <code>Comment</code> (feedback posted).
+                    </li>
+                    <li class="list-group-item px-0">
+                        <strong>Granular RBAC Decorator:</strong>
+                        Custom <code>@admin_only</code> decorator enforces admin-exclusive operations (creating, editing, and deleting posts) while allowing registered users to participate in discussions.
+                    </li>
+                    <li class="list-group-item px-0">
+                        <strong>Argon2id / PBKDF2 Password Hashing:</strong>
+                        Secure salt-based password generation and authentication via Werkzeug security primitives.
+                    </li>
+                    <li class="list-group-item px-0">
+                        <strong>CSRF-Protected Forms &amp; Jinja2 Templating:</strong>
+                        Full validation with WTForms, preventing cross-site request forgery and injection vulnerabilities.
+                    </li>
+                </ul>
+
+                <a href="{{ url_for('home') }}" class="btn btn-outline-primary rounded-pill align-self-start px-4">Explore Articles</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

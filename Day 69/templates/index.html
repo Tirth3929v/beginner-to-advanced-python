@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block title %}Clean Blog • Home{% endblock %}
+
+{% block header_img %}https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1600&q=80{% endblock %}
+{% block heading %}Clean Blog{% endblock %}
+{% block subheading %}A Python &amp; Architecture Journal with Relational Database Models{% endblock %}
+
+{% block content %}
+<div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+            <!-- Flash notifications -->
+            {% with messages = get_flashed_messages(with_categories=True) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category if category != 'error' else 'danger' }} alert-dismissible fade show" role="alert">
+                            {{ message }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+
+            <!-- Admin Create Post Action -->
+            {% if current_user.is_authenticated and current_user.id == 1 %}
+            <div class="d-flex justify-content-between align-items-center mb-4 p-3 bg-light rounded-3 border">
+                <div>
+                    <span class="badge bg-primary me-2">Admin Dashboard</span>
+                    <span class="small text-muted">You have publisher privileges</span>
+                </div>
+                <a href="{{ url_for('add_new_post') }}" class="btn btn-primary btn-sm rounded-pill px-3">
+                    ✍️ Create New Post
+                </a>
+            </div>
+            {% endif %}
+
+            <!-- Blog Post Entries -->
+            {% if posts %}
+                {% for post in posts %}
+                <div class="post-preview mb-4 pb-4 border-bottom position-relative">
+                    <a href="{{ url_for('show_post', post_id=post.id) }}" class="text-decoration-none text-dark">
+                        <h2 class="post-title fw-bold fs-3 mb-1">
+                            {{ post.title }}
+                        </h2>
+                        <h3 class="post-subtitle fs-5 fw-light text-secondary mb-2">
+                            {{ post.subtitle }}
+                        </h3>
+                    </a>
+                    <div class="d-flex justify-content-between align-items-center text-muted small mt-2">
+                        <span>
+                            Posted by <strong class="text-dark">{{ post.author.name }}</strong> on {{ post.date }}
+                            • <span class="badge bg-secondary-subtle text-secondary border">{{ post.comments|length }} comments</span>
+                        </span>
+                        
+                        <!-- Admin Edit & Delete Controls -->
+                        {% if current_user.is_authenticated and current_user.id == 1 %}
+                        <div class="btn-group btn-group-sm">
+                            <a href="{{ url_for('edit_post', post_id=post.id) }}" class="btn btn-outline-secondary" title="Edit Post">✏️ Edit</a>
+                            <a href="{{ url_for('delete_post', post_id=post.id) }}" class="btn btn-outline-danger" onclick="return confirm('Are you sure you want to delete this article?');" title="Delete Post">🗑️ Delete</a>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="text-center py-5 text-muted">
+                    <p class="fs-4">📭 No blog posts published yet.</p>
+                    {% if current_user.is_authenticated and current_user.id == 1 %}
+                    <a href="{{ url_for('add_new_post') }}" class="btn btn-primary rounded-pill">Create the First Post</a>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock %}
