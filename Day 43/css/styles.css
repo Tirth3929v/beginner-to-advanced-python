@@ -1,0 +1,98 @@
+/* Day 43 - External CSS Stylesheet */
+
+/* 1. Global Reset & Box Sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #243b53;
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+/* 2. Container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* 3. Typography */
+h1 {
+    font-size: 2.2rem;
+    color: #102a43;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #334e68;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 6px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* 4. The CSS Box Model Demonstration Card */
+.box-model-demo {
+    /* Margin: Space outside the border */
+    margin: 25px 0;
+    /* Border: Outline around padding */
+    border: 4px dashed #627d98;
+    /* Padding: Space between border and content */
+    padding: 25px;
+    /* Content Background */
+    background-color: #d9e2ec;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.inner-content {
+    background-color: #bcccdc;
+    padding: 15px;
+    font-weight: bold;
+    color: #102a43;
+    border-radius: 4px;
+}
+
+/* 5. Interactive Button with Hover Transition */
+.btn-primary {
+    display: inline-block;
+    background: linear-gradient(135deg, #0070f3, #0051b3);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 112, 243, 0.35);
+}
+
+/* 6. Highlight Text Utility */
+.highlight {
+    background-color: #fff3c4;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+    color: #8c6d1f;
+}

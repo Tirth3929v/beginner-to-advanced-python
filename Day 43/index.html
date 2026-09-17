@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 43 - Introduction to CSS: Selectors & The Box Model</title>
+    <!-- Linking External Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Introduction to CSS3</h1>
+            <p>Mastering modern cascading stylesheets, typography, and visual hierarchy.</p>
+        </header>
+
+        <main>
+            <section id="selectors">
+                <h2>1. CSS Selectors in Action</h2>
+                <p>
+                    CSS allows us to target elements by <span class="highlight">Element Type</span> (e.g. <code>p</code>), 
+                    by <span class="highlight">Class Name</span> (e.g. <code>.container</code>), 
+                    and by <span class="highlight">Unique ID</span> (e.g. <code>#selectors</code>).
+                </p>
+            </section>
+
+            <section id="box-model">
+                <h2>2. The Essential CSS Box Model</h2>
+                <p>Every HTML element on the page is structured as a box consisting of 4 distinct layers:</p>
+                <ol style="margin-left: 20px; margin-bottom: 20px;">
+                    <li><strong>Content:</strong> The actual text or media inside the element.</li>
+                    <li><strong>Padding:</strong> Clear space between the content and the border.</li>
+                    <li><strong>Border:</strong> The outline surrounding the padding.</li>
+                    <li><strong>Margin:</strong> Clear space outside the border, separating it from neighboring elements.</li>
+                </ol>
+
+                <div class="box-model-demo">
+                    <div class="inner-content">
+                        📦 Content Area + Padding + Border + Margin
+                    </div>
+                </div>
+            </section>
+
+            <section id="interactive">
+                <h2>3. Interactive Buttons & Transitions</h2>
+                <p>CSS transitions enable smooth micro-animations on user interactions like hover:</p>
+                <a href="#interactive" class="btn-primary">Hover Over Me! ✨</a>
+            </section>
+        </main>
+
+        <footer style="margin-top: 40px; border-top: 1px solid #e2e8f0; padding-top: 15px; text-align: center; color: #829ab1;">
+            <small>Day 43 Introduction to CSS • #100DaysOfCode</small>
+        </footer>
+    </div>
+
+</body>
+</html>
