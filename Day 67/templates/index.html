@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Clean Blog • RESTful Home{% endblock %}
+{% block heading %}Engineering Journal{% endblock %}
+{% block subheading %}Modern Systems Architecture, REST APIs & Distributed Pipelines{% endblock %}
+
+{% block content %}
+<div class="container px-4">
+    <div class="row justify-content-center">
+        <div class="col-md-10 col-lg-8">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <span class="text-muted small">Showing {{ all_posts|length }} Published Articles</span>
+                <a href="{{ url_for('new_post') }}" class="btn btn-dark rounded-pill px-4 fw-bold">+ Create New Post</a>
+            </div>
+
+            {% for post in all_posts %}
+            <div class="post-preview mb-4 pb-4 border-bottom">
+                <div class="d-flex justify-content-between align-items-start">
+                    <a href="{{ url_for('show_post', post_id=post.id) }}" class="text-decoration-none">
+                        <h2 class="post-title text-dark fw-bold mb-1">{{ post.title }}</h2>
+                        <h3 class="post-subtitle text-secondary fs-5 fw-normal mb-2">{{ post.subtitle }}</h3>
+                    </a>
+                    <div class="d-flex gap-2 ms-3">
+                        <a href="{{ url_for('edit_post', post_id=post.id) }}" class="btn btn-sm btn-outline-secondary rounded-pill">✏️ Edit</a>
+                        <a href="{{ url_for('delete_post', post_id=post.id) }}" class="btn btn-sm btn-outline-danger rounded-pill" onclick="return confirm('Delete this post?');">🗑️ Delete</a>
+                    </div>
+                </div>
+                <p class="post-meta text-muted small mb-0">
+                    Posted by <span class="fw-bold text-dark">{{ post.author }}</span> on {{ post.date }}
+                </p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
