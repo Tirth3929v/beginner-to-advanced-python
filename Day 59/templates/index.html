@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Clean Blog • Home{% endblock %}
+{% block heading %}Engineering Journal{% endblock %}
+{% block subheading %}Modern Python Systems, Web Architecture & Autonomous Agents{% endblock %}
+
+{% block content %}
+<div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+            {% for post in all_posts %}
+            <div class="post-preview my-4">
+                <a href="{{ url_for('show_post', index=post['id']) }}" class="text-decoration-none">
+                    <h2 class="post-title text-dark fw-bold mb-1">{{ post['title'] }}</h2>
+                    <h3 class="post-subtitle text-secondary fs-5 fw-normal mb-2">{{ post['subtitle'] }}</h3>
+                </a>
+                <p class="post-meta text-muted small">
+                    Posted by <span class="fw-bold text-dark">{{ post['author'] }}</span> on {{ post['date'] }}
+                </p>
+            </div>
+            <hr class="my-4">
+            {% endfor %}
+            <div class="d-flex justify-content-end mb-4">
+                <a class="btn btn-dark text-uppercase px-4 py-2 rounded-pill" href="#!">Older Posts →</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "The Art of Clean Architecture in Python",
+    "subtitle": "Separation of concerns, domain-driven design, and maintainable services",
+    "body": "Building scalable backends requires keeping business logic detached from framework idiosyncrasies. When core entities remain independent of databases, HTTP layers, or CLI tools, refactoring and unit testing become straightforward. We explore dependency inversion and repository patterns in Python.",
+    "author": "Tirth Patel",
+    "date": "September 12, 2026",
+    "header_img": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=80"
+  },
+  {
+    "id": 2,
+    "title": "Mastering Full-Stack Flask with Jinja2 and Bootstrap 5",
+    "subtitle": "Dynamic server-side rendering with zero frontend build pipeline fatigue",
+    "body": "While single-page applications introduce complex Node builds and state hydration issues, Flask paired with Jinja2 and modern Bootstrap 5 gives you lightning-fast time-to-market. Template inheritance with base layouts eliminates repetitive boilerplate and guarantees unified styling across all pages.",
+    "author": "Tirth Patel",
+    "date": "September 14, 2026",
+    "header_img": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80"
+  },
+  {
+    "id": 3,
+    "title": "From Web Scraping to Autonomous Browser Agents",
+    "subtitle": "Bridging BeautifulSoup4 DOM parsing with Selenium WebDriver interactions",
+    "body": "Modern data engineering relies heavily on automating web interactions. By pairing the speed of BeautifulSoup4 for static pages with the power of Selenium for authenticated, dynamic JavaScript SPAs, developers can create robust intelligence pipelines capable of continuous cloud operations.",
+    "author": "Tirth Patel",
+    "date": "September 16, 2026",
+    "header_img": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1400&q=80"
+  }
+]
