@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block title %}Add a New Cafe • Coffee & Wifi{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="card-custom p-4 p-md-5">
+            <h1 class="h3 fw-bold text-white mb-2">Add a Cafe</h1>
+            <p class="text-secondary small mb-4">Share your favorite remote-work spot with the nomad community.</p>
+
+            <form method="POST" action="{{ url_for('add_cafe') }}" novalidate>
+                {{ form.csrf_token }}
+
+                <div class="mb-3">
+                    <label class="form-label text-light small fw-bold">{{ form.cafe.label }}</label>
+                    {{ form.cafe(class="form-control", placeholder="e.g. Ritual Roasters") }}
+                    {% for error in form.cafe.errors %}
+                        <div class="text-danger small mt-1">⚠️ {{ error }}</div>
+                    {% endfor %}
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label text-light small fw-bold">{{ form.location.label }}</label>
+                    {{ form.location(class="form-control", placeholder="https://maps.google.com/...") }}
+                    {% for error in form.location.errors %}
+                        <div class="text-danger small mt-1">⚠️ {{ error }}</div>
+                    {% endfor %}
+                </div>
+
+                <div class="row g-3 mb-3">
+                    <div class="col-md-6">
+                        <label class="form-label text-light small fw-bold">{{ form.open_time.label }}</label>
+                        {{ form.open_time(class="form-control", placeholder="8:00 AM") }}
+                        {% for error in form.open_time.errors %}
+                            <div class="text-danger small mt-1">⚠️ {{ error }}</div>
+                        {% endfor %}
+                    </div>
+                    <div class="col-md-6">
+                        <label class="form-label text-light small fw-bold">{{ form.closing_time.label }}</label>
+                        {{ form.closing_time(class="form-control", placeholder="9:00 PM") }}
+                        {% for error in form.closing_time.errors %}
+                            <div class="text-danger small mt-1">⚠️ {{ error }}</div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label text-light small fw-bold">{{ form.coffee_rating.label }}</label>
+                    {{ form.coffee_rating(class="form-select") }}
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label text-light small fw-bold">{{ form.wifi_rating.label }}</label>
+                    {{ form.wifi_rating(class="form-select") }}
+                </div>
+
+                <div class="mb-4">
+                    <label class="form-label text-light small fw-bold">{{ form.power_rating.label }}</label>
+                    {{ form.power_rating(class="form-select") }}
+                </div>
+
+                {{ form.submit(class="btn btn-warning w-100 py-3 fw-bold rounded-pill") }}
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Coffee & Wifi • Digital Nomad Hub{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center text-center">
+    <div class="col-lg-8">
+        <div class="card-custom p-5 my-3">
+            <div class="display-1 mb-2">☕</div>
+            <h1 class="display-5 fw-bold text-white mb-3">Coffee &amp; Wifi Finder</h1>
+            <p class="lead text-secondary mb-4">
+                Discover laptop-friendly cafes with high-speed WiFi, artisanal espresso, and abundant power sockets tailored for developers and remote workers.
+            </p>
+            <div class="d-flex justify-content-center gap-3">
+                <a class="btn btn-amber btn-lg px-4 py-3 rounded-pill" href="{{ url_for('cafes') }}">
+                    📍 Browse Verified Cafes
+                </a>
+                <a class="btn btn-outline-light btn-lg px-4 py-3 rounded-pill" href="{{ url_for('add_cafe') }}">
+                    ➕ Submit a Spot
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
