@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}My Top 10 Movies • Cinematic Showcase{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h1 class="h2 fw-bold text-white mb-1">🍿 All-Time Favorite Cinema</h1>
+                <p class="text-secondary small mb-0">Rankings dynamically recalculated by SQLAlchemy database rating scores</p>
+            </div>
+            <a href="{{ url_for('add_movie') }}" class="btn btn-warning rounded-pill px-4 fw-bold">+ Add Movie</a>
+        </div>
+
+        {% if not all_movies %}
+        <div class="card-custom p-5 text-center my-4">
+            <div class="display-3 mb-3">🎬</div>
+            <h2 class="h3 fw-bold text-white mb-2">No Movies Added Yet</h2>
+            <p class="text-secondary mb-4">Search TMDB and build your personal Top 10 cinema collection!</p>
+            <div>
+                <a href="{{ url_for('add_movie') }}" class="btn btn-warning rounded-pill px-5 py-3 fw-bold">
+                    Add Your First Movie →
+                </a>
+            </div>
+        </div>
+        {% else %}
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            {% for movie in all_movies %}
+            <div class="col">
+                <div class="movie-card h-100 position-relative d-flex flex-column">
+                    <span class="ranking-badge">#{{ movie.ranking }}</span>
+                    <div style="height: 380px; overflow: hidden; background: #000;">
+                        <img src="{{ movie.img_url }}" alt="{{ movie.title }}" class="w-100 h-100 object-fit-cover" onerror="this.src='https://via.placeholder.com/500x750?text={{ movie.title }}';">
+                    </div>
+                    <div class="p-4 d-flex flex-column flex-grow-1 justify-content-between">
+                        <div>
+                            <div class="d-flex justify-content-between align-items-baseline mb-1">
+                                <h2 class="h5 fw-bold text-white mb-0">{{ movie.title }}</h2>
+                                <span class="text-secondary small">({{ movie.year }})</span>
+                            </div>
+                            <div class="text-warning fw-bold small mb-2">★ {{ movie.rating }}/10</div>
+                            <p class="text-secondary small mb-3" style="display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;">
+                                "{{ movie.review or 'No review written yet.' }}"
+                            </p>
+                        </div>
+                        <div class="border-top border-secondary pt-3 mt-3 d-flex justify-content-between align-items-center">
+                            <a href="{{ url_for('edit_movie', id=movie.id) }}" class="btn btn-sm btn-outline-warning rounded-pill px-3">
+                                ✏️ Rate / Review
+                            </a>
+                            <a href="{{ url_for('delete_movie', id=movie.id) }}" class="btn btn-sm btn-outline-danger rounded-pill px-3" onclick="return confirm('Delete this movie?');">
+                                🗑️ Delete
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
