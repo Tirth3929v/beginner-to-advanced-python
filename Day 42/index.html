@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 42 - Intermediate HTML: Tables & Comprehensive Forms</title>
+</head>
+<body style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 850px; margin: 30px auto; padding: 0 20px; color: #2d3748;">
+
+    <header>
+        <h1>Intermediate HTML: Tables & Form Studio</h1>
+        <p><em>Demonstrating HTML5 tables, input types, field validation, and data collection.</em></p>
+        <hr>
+    </header>
+
+    <main>
+        <!-- 1. Complex HTML5 Table -->
+        <section id="table-demo">
+            <h2>1. Complex Data Table (Colspan & Rowspan)</h2>
+            <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%; text-align: center;">
+                <thead style="background-color: #4a5568; color: white;">
+                    <tr>
+                        <th rowspan="2">Day</th>
+                        <th colspan="2">Morning Schedule</th>
+                        <th colspan="2">Afternoon Schedule</th>
+                    </tr>
+                    <tr>
+                        <th>Topic</th>
+                        <th>Hours</th>
+                        <th>Project</th>
+                        <th>Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Monday</strong></td>
+                        <td>Data Structures & Algorithms</td>
+                        <td>3.0</td>
+                        <td>LeetCode Practice</td>
+                        <td>2.5</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Wednesday</strong></td>
+                        <td>Flask & RESTful APIs</td>
+                        <td>2.5</td>
+                        <td>Building Bookshelf API</td>
+                        <td>3.5</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Friday</strong></td>
+                        <td>Web Scraping & Selenium</td>
+                        <td>3.0</td>
+                        <td>Automated Job Scraper</td>
+                        <td>3.0</td>
+                    </tr>
+                </tbody>
+                <tfoot style="background-color: #edf2f7; font-weight: bold;">
+                    <tr>
+                        <td colspan="2">Total Study Hours</td>
+                        <td>8.5 hrs</td>
+                        <td>Total Project Hours</td>
+                        <td>9.0 hrs</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr style="margin: 35px 0;">
+
+        <!-- 2. Comprehensive HTML Form -->
+        <section id="form-demo">
+            <h2>2. Comprehensive Developer Registration Form</h2>
+            <form action="#" method="POST" style="background-color: #f7fafc; padding: 25px; border: 1px solid #e2e8f0; border-radius: 8px;">
+                
+                <fieldset style="border: 1px solid #cbd5e0; padding: 15px; margin-bottom: 20px; border-radius: 4px;">
+                    <legend><strong>Personal Information</strong></legend>
+                    
+                    <p>
+                        <label for="fullname">Full Name (Required):</label><br>
+                        <input type="text" id="fullname" name="fullname" required minlength="2" placeholder="e.g. Tirth Patel" style="width: 100%; max-width: 400px; padding: 8px;">
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address (Required):</label><br>
+                        <input type="email" id="email" name="email" required placeholder="name@example.com" style="width: 100%; max-width: 400px; padding: 8px;">
+                    </p>
+
+                    <p>
+                        <label for="password">Password (Min 8 characters):</label><br>
+                        <input type="password" id="password" name="password" required minlength="8" style="width: 100%; max-width: 400px; padding: 8px;">
+                    </p>
+
+                    <p>
+                        <label for="dob">Date of Birth:</label><br>
+                        <input type="date" id="dob" name="dob" style="padding: 6px;">
+                    </p>
+                </fieldset>
+
+                <fieldset style="border: 1px solid #cbd5e0; padding: 15px; margin-bottom: 20px; border-radius: 4px;">
+                    <legend><strong>Developer Profile & Preferences</strong></legend>
+                    
+                    <p>
+                        <label>Experience Level:</label><br>
+                        <input type="radio" id="beginner" name="exp_level" value="beginner" checked>
+                        <label for="beginner">Beginner</label> &nbsp;
+                        <input type="radio" id="intermediate" name="exp_level" value="intermediate">
+                        <label for="intermediate">Intermediate</label> &nbsp;
+                        <input type="radio" id="advanced" name="exp_level" value="advanced">
+                        <label for="advanced">Advanced</label>
+                    </p>
+
+                    <p>
+                        <label>Preferred Focus Areas:</label><br>
+                        <input type="checkbox" id="backend" name="focus" value="backend" checked>
+                        <label for="backend">Backend & APIs (Python / Flask)</label><br>
+                        <input type="checkbox" id="frontend" name="focus" value="frontend">
+                        <label for="frontend">Frontend Web Development (HTML/CSS/JS)</label><br>
+                        <input type="checkbox" id="data" name="focus" value="data" checked>
+                        <label for="data">Data Science & Machine Learning</label>
+                    </p>
+
+                    <p>
+                        <label for="tech_stack">Primary Language:</label><br>
+                        <select id="tech_stack" name="tech_stack" style="padding: 6px;">
+                            <option value="python" selected>Python 3.12</option>
+                            <option value="javascript">JavaScript / TypeScript</option>
+                            <option value="sql">SQL / Databases</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="satisfaction">Self-Assessed Skill Level (1-10):</label><br>
+                        <input type="range" id="satisfaction" name="skill" min="1" max="10" value="8">
+                    </p>
+
+                    <p>
+                        <label for="bio">Short Bio / Goals:</label><br>
+                        <textarea id="bio" name="bio" rows="4" style="width: 100%; max-width: 500px; padding: 8px;" placeholder="Tell us about what you hope to build..."></textarea>
+                    </p>
+                </fieldset>
+
+                <div>
+                    <input type="submit" value="🚀 Submit Registration" style="background-color: #3182ce; color: white; border: none; padding: 10px 24px; font-size: 15px; border-radius: 4px; cursor: pointer;">
+                    &nbsp;
+                    <input type="reset" value="Reset Form" style="background-color: #e2e8f0; color: #4a5568; border: none; padding: 10px 18px; font-size: 15px; border-radius: 4px; cursor: pointer;">
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer style="margin-top: 35px; text-align: center; color: #718096;">
+        <hr>
+        <p><small>Day 42 Intermediate HTML & Forms • #100DaysOfCode</small></p>
+    </footer>
+
+</body>
+</html>
