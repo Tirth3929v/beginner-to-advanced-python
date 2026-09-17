@@ -1,0 +1,501 @@
+App,Category,Rating,Reviews,Size_MBs,Installs,Type,Price,Content_Rating,Genres
+Subway Surfers,GAME,4.5,27722268,76.0,1000000000,Free,0.0,Everyone,Arcade
+Candy Crush Saga,GAME,4.4,22426677,74.0,500000000,Free,0.0,Everyone,Casual
+WhatsApp Messenger,COMMUNICATION,4.4,69119316,38.0,1000000000,Free,0.0,Everyone,Communication
+Instagram,PHOTOGRAPHY,4.5,66577313,35.0,1000000000,Free,0.0,Teen,Social
+Google Drive,PRODUCTIVITY,4.4,2731171,15.0,1000000000,Free,0.0,Everyone,Productivity
+Minecraft,GAME,4.5,2376564,80.0,10000000,Paid,7.49,Everyone 10+,Arcade;Action & Adventure
+Grand Theft Auto: San Andreas,GAME,4.4,348962,26.0,1000000,Paid,6.99,Mature 17+,Action
+Sleep as Android Unlock,LIFESTYLE,4.5,23966,0.8,1000000,Paid,5.99,Everyone,Lifestyle
+DraStic DS Emulator,GAME,4.6,87766,12.0,1000000,Paid,4.99,Everyone,Action
+Facetune: One Tap Tweaking,PHOTOGRAPHY,4.4,49553,48.0,1000000,Paid,5.99,Everyone,Photography
+Photography App #11,PHOTOGRAPHY,4.4,412082,11.7,10000000,Free,0.0,Everyone,Photography
+Medical App #12,MEDICAL,4.9,27781,7.7,500000,Free,0.0,Teen,Medical
+Finance App #13,FINANCE,4.9,104,4.6,10000,Paid,4.99,Everyone,Finance
+Lifestyle App #14,LIFESTYLE,5.0,36,93.4,1000,Paid,4.99,Everyone,Lifestyle
+Medical App #15,MEDICAL,4.1,759,54.6,10000,Free,0.0,Everyone,Medical
+Lifestyle App #16,LIFESTYLE,4.2,5269,79.6,100000,Paid,4.99,Everyone,Lifestyle
+Game App #17,GAME,4.0,12277,55.0,500000,Free,0.0,Everyone,Game
+Family App #18,FAMILY,5.0,18,88.2,500,Free,0.0,Teen,Family
+Communication App #19,COMMUNICATION,4.3,51072,91.8,1000000,Free,0.0,Everyone,Communication
+Business App #20,BUSINESS,5.0,1,41.7,100,Free,0.0,Everyone,Business
+Communication App #21,COMMUNICATION,4.7,63,9.3,1000,Paid,2.99,Everyone,Communication
+Business App #22,BUSINESS,4.7,53630,33.1,1000000,Free,0.0,Everyone,Business
+Photography App #23,PHOTOGRAPHY,4.6,721,46.2,10000,Free,0.0,Everyone,Photography
+Tools App #24,TOOLS,4.9,132594,26.2,5000000,Free,0.0,Everyone,Tools
+Lifestyle App #25,LIFESTYLE,4.2,32,49.5,1000,Paid,9.99,Mature 17+,Lifestyle
+Photography App #26,PHOTOGRAPHY,4.1,242142,89.7,10000000,Free,0.0,Everyone,Photography
+Tools App #27,TOOLS,3.5,8,44.7,500,Free,0.0,Everyone,Tools
+Productivity App #28,PRODUCTIVITY,4.6,327041,13.8,10000000,Free,0.0,Everyone,Productivity
+Game App #29,GAME,4.8,702511,3.1,10000000,Free,0.0,Everyone,Game
+Business App #30,BUSINESS,4.1,1,33.7,100,Free,0.0,Mature 17+,Business
+Finance App #31,FINANCE,3.7,39012,91.5,500000,Free,0.0,Everyone,Finance
+Family App #32,FAMILY,4.9,299,5.9,10000,Free,0.0,Everyone,Family
+Family App #33,FAMILY,4.4,2676,15.9,100000,Free,0.0,Everyone,Family
+Finance App #34,FINANCE,4.1,78,36.7,5000,Free,0.0,Everyone,Finance
+Finance App #35,FINANCE,4.2,335,76.3,5000,Free,0.0,Everyone,Finance
+Finance App #36,FINANCE,4.3,51,65.2,1000,Free,0.0,Everyone,Finance
+Tools App #37,TOOLS,3.7,291,38.3,5000,Free,0.0,Mature 17+,Tools
+Game App #38,GAME,4.4,17943,88.0,1000000,Free,0.0,Mature 17+,Game
+Tools App #39,TOOLS,4.2,141290,94.7,5000000,Free,0.0,Everyone 10+,Tools
+Medical App #40,MEDICAL,4.4,232094,28.3,10000000,Free,0.0,Teen,Medical
+Tools App #41,TOOLS,4.5,794,17.5,50000,Free,0.0,Mature 17+,Tools
+Productivity App #42,PRODUCTIVITY,4.8,56445,3.0,1000000,Free,0.0,Everyone,Productivity
+Family App #43,FAMILY,3.6,59,24.4,1000,Free,0.0,Everyone,Family
+Productivity App #44,PRODUCTIVITY,4.5,34722,63.3,500000,Free,0.0,Everyone,Productivity
+Tools App #45,TOOLS,4.6,2708,76.0,50000,Free,0.0,Everyone,Tools
+Game App #46,GAME,4.1,50,73.6,1000,Free,0.0,Everyone,Game
+Medical App #47,MEDICAL,4.1,48693,55.4,1000000,Free,0.0,Everyone 10+,Medical
+Productivity App #48,PRODUCTIVITY,4.4,233,27.3,10000,Free,0.0,Everyone,Productivity
+Family App #49,FAMILY,4.5,840,59.4,50000,Free,0.0,Everyone 10+,Family
+Family App #50,FAMILY,5.0,357080,71.0,5000000,Free,0.0,Everyone,Family
+Finance App #51,FINANCE,4.5,353475,87.0,5000000,Free,0.0,Everyone,Finance
+Business App #52,BUSINESS,4.5,277,67.4,5000,Free,0.0,Teen,Business
+Tools App #53,TOOLS,4.3,6,45.6,500,Free,0.0,Everyone,Tools
+Finance App #54,FINANCE,3.8,1375,6.1,50000,Free,0.0,Everyone,Finance
+Medical App #55,MEDICAL,4.8,236,40.6,10000,Free,0.0,Everyone,Medical
+Communication App #56,COMMUNICATION,4.1,23,32.4,500,Free,0.0,Teen,Communication
+Tools App #57,TOOLS,3.8,1566,42.1,100000,Free,0.0,Everyone,Tools
+Game App #58,GAME,3.9,4,24.7,100,Free,0.0,Everyone,Game
+Business App #59,BUSINESS,4.3,559,42.8,10000,Free,0.0,Teen,Business
+Tools App #60,TOOLS,5.0,63,3.8,1000,Free,0.0,Everyone,Tools
+Medical App #61,MEDICAL,4.5,171,45.5,5000,Paid,14.99,Everyone,Medical
+Lifestyle App #62,LIFESTYLE,4.5,720,26.6,10000,Free,0.0,Everyone,Lifestyle
+Tools App #63,TOOLS,5.0,5,89.8,100,Free,0.0,Mature 17+,Tools
+Productivity App #64,PRODUCTIVITY,4.4,25,14.4,500,Free,0.0,Teen,Productivity
+Medical App #65,MEDICAL,4.3,1,32.0,100,Free,0.0,Teen,Medical
+Lifestyle App #66,LIFESTYLE,3.9,29,13.4,1000,Free,0.0,Everyone,Lifestyle
+Communication App #67,COMMUNICATION,4.2,396,55.1,10000,Free,0.0,Everyone,Communication
+Tools App #68,TOOLS,4.4,13,56.2,500,Free,0.0,Mature 17+,Tools
+Medical App #69,MEDICAL,4.6,1721,86.0,100000,Free,0.0,Everyone,Medical
+Business App #70,BUSINESS,4.6,169989,7.4,10000000,Free,0.0,Everyone 10+,Business
+Tools App #71,TOOLS,5.0,206,29.6,5000,Paid,4.99,Everyone,Tools
+Medical App #72,MEDICAL,4.7,6469,13.0,100000,Free,0.0,Mature 17+,Medical
+Lifestyle App #73,LIFESTYLE,4.4,594,92.1,10000,Paid,1.99,Everyone,Lifestyle
+Lifestyle App #74,LIFESTYLE,5.0,794,67.3,50000,Free,0.0,Everyone,Lifestyle
+Family App #75,FAMILY,4.8,38,93.7,500,Free,0.0,Teen,Family
+Finance App #76,FINANCE,4.0,64,54.2,1000,Free,0.0,Everyone,Finance
+Lifestyle App #77,LIFESTYLE,3.9,50,71.0,1000,Free,0.0,Teen,Lifestyle
+Business App #78,BUSINESS,3.5,50,91.5,1000,Free,0.0,Everyone,Business
+Game App #79,GAME,4.9,3922,53.9,50000,Paid,0.99,Everyone,Game
+Finance App #80,FINANCE,4.1,277,66.8,10000,Free,0.0,Everyone,Finance
+Business App #81,BUSINESS,4.8,7,6.7,100,Free,0.0,Everyone,Business
+Communication App #82,COMMUNICATION,5.0,26704,28.2,500000,Free,0.0,Everyone,Communication
+Lifestyle App #83,LIFESTYLE,3.8,14,44.4,500,Free,0.0,Everyone,Lifestyle
+Business App #84,BUSINESS,3.5,260,27.6,5000,Free,0.0,Everyone,Business
+Tools App #85,TOOLS,5.0,37,10.2,500,Free,0.0,Mature 17+,Tools
+Medical App #86,MEDICAL,3.3,3336,93.8,50000,Paid,0.99,Everyone,Medical
+Medical App #87,MEDICAL,4.1,39037,27.8,1000000,Free,0.0,Everyone,Medical
+Finance App #88,FINANCE,4.8,799,94.7,10000,Free,0.0,Everyone,Finance
+Medical App #89,MEDICAL,4.0,207690,14.4,5000000,Free,0.0,Everyone 10+,Medical
+Productivity App #90,PRODUCTIVITY,4.5,6,6.8,100,Free,0.0,Everyone,Productivity
+Photography App #91,PHOTOGRAPHY,4.8,15,78.0,500,Free,0.0,Everyone 10+,Photography
+Business App #92,BUSINESS,4.2,6285,59.9,100000,Free,0.0,Teen,Business
+Tools App #93,TOOLS,4.7,18,43.0,500,Free,0.0,Mature 17+,Tools
+Productivity App #94,PRODUCTIVITY,3.3,6,39.2,100,Free,0.0,Everyone,Productivity
+Tools App #95,TOOLS,4.8,319,8.6,5000,Free,0.0,Everyone,Tools
+Finance App #96,FINANCE,4.1,505754,34.1,10000000,Free,0.0,Everyone,Finance
+Photography App #97,PHOTOGRAPHY,4.4,227316,34.5,10000000,Free,0.0,Mature 17+,Photography
+Tools App #98,TOOLS,3.7,26,23.2,500,Free,0.0,Teen,Tools
+Family App #99,FAMILY,3.5,1774,49.1,50000,Free,0.0,Everyone,Family
+Business App #100,BUSINESS,4.1,786,83.3,50000,Paid,0.99,Mature 17+,Business
+Game App #101,GAME,4.3,7,52.1,100,Free,0.0,Mature 17+,Game
+Lifestyle App #102,LIFESTYLE,3.8,30218,8.3,500000,Free,0.0,Everyone,Lifestyle
+Tools App #103,TOOLS,5.0,1750,43.9,100000,Free,0.0,Everyone,Tools
+Business App #104,BUSINESS,4.8,247387,80.3,5000000,Free,0.0,Everyone,Business
+Business App #105,BUSINESS,3.1,277,46.9,5000,Free,0.0,Everyone,Business
+Finance App #106,FINANCE,4.0,25528,54.7,500000,Free,0.0,Everyone,Finance
+Medical App #107,MEDICAL,3.5,224386,33.1,5000000,Free,0.0,Mature 17+,Medical
+Medical App #108,MEDICAL,4.5,1360,17.4,50000,Paid,14.99,Everyone,Medical
+Communication App #109,COMMUNICATION,4.3,7421,3.0,100000,Free,0.0,Everyone 10+,Communication
+Communication App #110,COMMUNICATION,4.7,60292,52.0,1000000,Free,0.0,Everyone,Communication
+Medical App #111,MEDICAL,3.7,3076,51.5,50000,Free,0.0,Teen,Medical
+Finance App #112,FINANCE,4.5,752410,32.2,10000000,Free,0.0,Everyone,Finance
+Finance App #113,FINANCE,5.0,120605,65.8,5000000,Free,0.0,Everyone,Finance
+Medical App #114,MEDICAL,5.0,4312,58.6,100000,Paid,0.99,Teen,Medical
+Game App #115,GAME,4.4,37,19.3,500,Free,0.0,Everyone,Game
+Communication App #116,COMMUNICATION,3.9,33977,71.9,500000,Free,0.0,Teen,Communication
+Tools App #117,TOOLS,4.5,735,31.7,10000,Free,0.0,Everyone,Tools
+Family App #118,FAMILY,3.6,5996,85.7,100000,Free,0.0,Everyone,Family
+Game App #119,GAME,4.4,3,52.8,100,Free,0.0,Mature 17+,Game
+Tools App #120,TOOLS,4.1,3789,60.6,50000,Free,0.0,Everyone,Tools
+Productivity App #121,PRODUCTIVITY,4.7,6,16.5,100,Free,0.0,Everyone,Productivity
+Medical App #122,MEDICAL,4.2,1,55.2,100,Free,0.0,Teen,Medical
+Lifestyle App #123,LIFESTYLE,3.1,2099,58.4,50000,Free,0.0,Everyone,Lifestyle
+Communication App #124,COMMUNICATION,4.5,302,69.1,5000,Free,0.0,Everyone,Communication
+Tools App #125,TOOLS,3.8,113559,86.5,5000000,Free,0.0,Everyone,Tools
+Communication App #126,COMMUNICATION,3.6,381549,16.7,5000000,Free,0.0,Everyone,Communication
+Family App #127,FAMILY,5.0,37287,67.9,500000,Free,0.0,Everyone,Family
+Lifestyle App #128,LIFESTYLE,4.5,34415,86.7,500000,Paid,2.99,Everyone,Lifestyle
+Medical App #129,MEDICAL,4.2,256,39.4,5000,Free,0.0,Everyone,Medical
+Business App #130,BUSINESS,4.7,10324,33.3,1000000,Free,0.0,Everyone,Business
+Business App #131,BUSINESS,3.6,3081,44.3,50000,Free,0.0,Everyone,Business
+Tools App #132,TOOLS,3.6,44885,41.3,1000000,Free,0.0,Mature 17+,Tools
+Game App #133,GAME,3.7,772749,16.3,10000000,Free,0.0,Everyone,Game
+Communication App #134,COMMUNICATION,4.5,3,39.3,100,Free,0.0,Everyone,Communication
+Communication App #135,COMMUNICATION,4.2,4,8.6,100,Free,0.0,Teen,Communication
+Family App #136,FAMILY,3.9,3,54.3,100,Free,0.0,Everyone,Family
+Game App #137,GAME,4.1,2895,62.1,100000,Free,0.0,Everyone,Game
+Photography App #138,PHOTOGRAPHY,4.5,35,40.2,500,Free,0.0,Everyone,Photography
+Tools App #139,TOOLS,5.0,337489,55.2,10000000,Free,0.0,Mature 17+,Tools
+Communication App #140,COMMUNICATION,4.3,33239,91.5,500000,Paid,14.99,Mature 17+,Communication
+Finance App #141,FINANCE,3.4,7248,78.1,100000,Free,0.0,Everyone,Finance
+Lifestyle App #142,LIFESTYLE,5.0,51,27.3,1000,Free,0.0,Everyone,Lifestyle
+Finance App #143,FINANCE,3.3,76391,73.1,1000000,Free,0.0,Everyone,Finance
+Lifestyle App #144,LIFESTYLE,3.9,726186,76.5,10000000,Free,0.0,Everyone,Lifestyle
+Tools App #145,TOOLS,5.0,28052,15.4,1000000,Free,0.0,Teen,Tools
+Productivity App #146,PRODUCTIVITY,4.5,14,4.2,500,Free,0.0,Mature 17+,Productivity
+Medical App #147,MEDICAL,4.4,55599,79.3,1000000,Free,0.0,Everyone,Medical
+Lifestyle App #148,LIFESTYLE,3.3,730013,83.3,10000000,Free,0.0,Everyone,Lifestyle
+Business App #149,BUSINESS,4.1,184098,50.5,5000000,Free,0.0,Everyone,Business
+Finance App #150,FINANCE,4.6,16,73.8,1000,Free,0.0,Everyone,Finance
+Communication App #151,COMMUNICATION,3.7,248,46.5,5000,Free,0.0,Everyone,Communication
+Finance App #152,FINANCE,4.7,12522,5.4,500000,Free,0.0,Everyone,Finance
+Tools App #153,TOOLS,5.0,3,73.8,100,Free,0.0,Everyone,Tools
+Business App #154,BUSINESS,4.2,4,66.2,100,Free,0.0,Everyone,Business
+Photography App #155,PHOTOGRAPHY,4.7,773,75.6,10000,Paid,1.99,Everyone,Photography
+Game App #156,GAME,3.9,31543,61.6,500000,Free,0.0,Teen,Game
+Medical App #157,MEDICAL,4.9,680,64.5,50000,Free,0.0,Everyone,Medical
+Photography App #158,PHOTOGRAPHY,4.7,248780,87.2,5000000,Free,0.0,Everyone,Photography
+Medical App #159,MEDICAL,4.2,70,80.6,1000,Free,0.0,Everyone,Medical
+Lifestyle App #160,LIFESTYLE,4.5,13050,13.7,500000,Free,0.0,Everyone,Lifestyle
+Medical App #161,MEDICAL,4.1,160351,52.4,5000000,Free,0.0,Teen,Medical
+Business App #162,BUSINESS,4.3,7,59.5,100,Free,0.0,Everyone,Business
+Photography App #163,PHOTOGRAPHY,4.6,32,94.8,500,Free,0.0,Everyone,Photography
+Game App #164,GAME,4.2,435,56.2,10000,Free,0.0,Everyone,Game
+Business App #165,BUSINESS,4.3,61259,2.8,1000000,Free,0.0,Everyone,Business
+Communication App #166,COMMUNICATION,3.2,300,57.0,5000,Free,0.0,Everyone,Communication
+Medical App #167,MEDICAL,4.1,18710,91.0,1000000,Free,0.0,Teen,Medical
+Medical App #168,MEDICAL,3.8,7153,89.9,100000,Paid,14.99,Everyone,Medical
+Family App #169,FAMILY,4.1,343,23.8,5000,Free,0.0,Teen,Family
+Lifestyle App #170,LIFESTYLE,3.9,1257,91.0,100000,Paid,0.99,Teen,Lifestyle
+Medical App #171,MEDICAL,4.0,63076,66.9,1000000,Paid,0.99,Everyone,Medical
+Tools App #172,TOOLS,3.6,31175,5.7,500000,Free,0.0,Mature 17+,Tools
+Medical App #173,MEDICAL,3.9,36106,90.9,500000,Paid,0.99,Mature 17+,Medical
+Business App #174,BUSINESS,4.0,48560,10.5,1000000,Free,0.0,Everyone,Business
+Finance App #175,FINANCE,4.2,773,12.6,10000,Free,0.0,Mature 17+,Finance
+Game App #176,GAME,3.9,67,34.7,1000,Paid,9.99,Everyone,Game
+Game App #177,GAME,4.0,21,17.3,1000,Free,0.0,Everyone,Game
+Business App #178,BUSINESS,4.5,266,72.1,5000,Free,0.0,Everyone,Business
+Lifestyle App #179,LIFESTYLE,4.3,1007,53.9,100000,Free,0.0,Teen,Lifestyle
+Photography App #180,PHOTOGRAPHY,4.1,786830,60.9,10000000,Free,0.0,Everyone,Photography
+Communication App #181,COMMUNICATION,4.8,1872,19.1,50000,Free,0.0,Teen,Communication
+Finance App #182,FINANCE,4.1,73,30.3,5000,Free,0.0,Teen,Finance
+Finance App #183,FINANCE,4.8,660,83.1,50000,Free,0.0,Everyone 10+,Finance
+Productivity App #184,PRODUCTIVITY,3.4,315,4.8,5000,Free,0.0,Everyone,Productivity
+Finance App #185,FINANCE,4.1,76,12.0,1000,Free,0.0,Mature 17+,Finance
+Photography App #186,PHOTOGRAPHY,3.6,254538,10.1,10000000,Free,0.0,Everyone,Photography
+Finance App #187,FINANCE,4.5,39,61.6,1000,Free,0.0,Everyone,Finance
+Business App #188,BUSINESS,4.2,386533,85.2,10000000,Free,0.0,Everyone,Business
+Tools App #189,TOOLS,4.7,21562,92.1,500000,Paid,0.99,Everyone,Tools
+Game App #190,GAME,4.0,31,60.4,500,Paid,2.99,Everyone,Game
+Medical App #191,MEDICAL,4.8,218532,13.4,5000000,Free,0.0,Everyone,Medical
+Productivity App #192,PRODUCTIVITY,4.4,1289,17.4,50000,Free,0.0,Everyone,Productivity
+Medical App #193,MEDICAL,4.3,10235,45.5,500000,Free,0.0,Everyone,Medical
+Family App #194,FAMILY,4.2,1520,66.8,50000,Free,0.0,Mature 17+,Family
+Finance App #195,FINANCE,3.7,269431,93.8,10000000,Free,0.0,Everyone,Finance
+Finance App #196,FINANCE,4.2,171,74.3,5000,Free,0.0,Mature 17+,Finance
+Game App #197,GAME,4.0,3,92.9,100,Free,0.0,Everyone,Game
+Lifestyle App #198,LIFESTYLE,4.7,6,64.5,500,Free,0.0,Everyone 10+,Lifestyle
+Tools App #199,TOOLS,5.0,70967,68.6,1000000,Free,0.0,Teen,Tools
+Photography App #200,PHOTOGRAPHY,4.4,259,75.0,5000,Free,0.0,Everyone,Photography
+Business App #201,BUSINESS,4.5,555205,46.8,10000000,Free,0.0,Everyone,Business
+Tools App #202,TOOLS,5.0,310,83.1,5000,Free,0.0,Everyone,Tools
+Tools App #203,TOOLS,3.7,3987,92.7,50000,Free,0.0,Everyone,Tools
+Lifestyle App #204,LIFESTYLE,4.6,607,26.3,50000,Free,0.0,Everyone,Lifestyle
+Medical App #205,MEDICAL,3.3,17986,93.9,500000,Free,0.0,Everyone,Medical
+Game App #206,GAME,3.7,40703,69.6,1000000,Free,0.0,Everyone,Game
+Family App #207,FAMILY,3.4,257,86.9,5000,Free,0.0,Everyone,Family
+Family App #208,FAMILY,3.9,1,68.7,100,Free,0.0,Mature 17+,Family
+Photography App #209,PHOTOGRAPHY,4.4,22,25.4,500,Free,0.0,Mature 17+,Photography
+Communication App #210,COMMUNICATION,4.1,257,17.6,5000,Free,0.0,Everyone,Communication
+Business App #211,BUSINESS,3.6,64,14.6,1000,Free,0.0,Everyone 10+,Business
+Lifestyle App #212,LIFESTYLE,4.8,4141,64.4,100000,Paid,14.99,Everyone,Lifestyle
+Medical App #213,MEDICAL,3.6,523876,35.5,10000000,Free,0.0,Everyone,Medical
+Game App #214,GAME,3.4,25487,82.8,500000,Free,0.0,Everyone,Game
+Productivity App #215,PRODUCTIVITY,4.0,6,61.7,500,Free,0.0,Everyone,Productivity
+Medical App #216,MEDICAL,4.0,172,56.6,10000,Free,0.0,Everyone,Medical
+Productivity App #217,PRODUCTIVITY,3.4,23260,34.2,500000,Free,0.0,Everyone,Productivity
+Photography App #218,PHOTOGRAPHY,4.5,296,21.2,5000,Paid,9.99,Everyone,Photography
+Family App #219,FAMILY,3.9,7076,18.9,100000,Free,0.0,Everyone,Family
+Photography App #220,PHOTOGRAPHY,5.0,578273,48.5,10000000,Free,0.0,Everyone,Photography
+Communication App #221,COMMUNICATION,4.8,2,63.4,100,Free,0.0,Everyone,Communication
+Medical App #222,MEDICAL,4.8,39,7.0,500,Free,0.0,Everyone 10+,Medical
+Business App #223,BUSINESS,4.1,17637,62.7,1000000,Free,0.0,Teen,Business
+Productivity App #224,PRODUCTIVITY,3.9,3654,83.7,50000,Free,0.0,Everyone,Productivity
+Game App #225,GAME,3.5,2705,58.9,50000,Free,0.0,Everyone,Game
+Tools App #226,TOOLS,4.8,51753,53.0,1000000,Free,0.0,Everyone,Tools
+Finance App #227,FINANCE,4.7,21222,37.6,500000,Paid,2.99,Mature 17+,Finance
+Family App #228,FAMILY,5.0,669,12.6,10000,Free,0.0,Everyone,Family
+Medical App #229,MEDICAL,4.9,334,68.9,5000,Free,0.0,Everyone 10+,Medical
+Medical App #230,MEDICAL,4.5,7277,9.1,100000,Free,0.0,Everyone 10+,Medical
+Productivity App #231,PRODUCTIVITY,4.1,85,47.4,5000,Free,0.0,Everyone,Productivity
+Productivity App #232,PRODUCTIVITY,4.5,50,10.8,1000,Free,0.0,Teen,Productivity
+Family App #233,FAMILY,4.2,93,82.0,5000,Free,0.0,Teen,Family
+Photography App #234,PHOTOGRAPHY,4.9,4,26.2,100,Free,0.0,Everyone 10+,Photography
+Productivity App #235,PRODUCTIVITY,4.4,1,2.7,100,Paid,14.99,Everyone,Productivity
+Medical App #236,MEDICAL,3.1,65562,62.3,1000000,Free,0.0,Everyone,Medical
+Business App #237,BUSINESS,4.4,13947,30.4,500000,Free,0.0,Teen,Business
+Productivity App #238,PRODUCTIVITY,5.0,333335,73.4,5000000,Free,0.0,Everyone,Productivity
+Photography App #239,PHOTOGRAPHY,4.5,2,11.4,100,Free,0.0,Everyone,Photography
+Tools App #240,TOOLS,4.4,262362,38.7,10000000,Free,0.0,Everyone,Tools
+Business App #241,BUSINESS,5.0,40,43.7,1000,Free,0.0,Teen,Business
+Photography App #242,PHOTOGRAPHY,4.7,52,33.7,1000,Free,0.0,Mature 17+,Photography
+Productivity App #243,PRODUCTIVITY,3.9,129,35.3,5000,Paid,0.99,Everyone,Productivity
+Game App #244,GAME,3.7,148,61.7,10000,Free,0.0,Everyone,Game
+Communication App #245,COMMUNICATION,4.1,1166,7.3,50000,Free,0.0,Everyone,Communication
+Finance App #246,FINANCE,3.4,20,33.4,500,Free,0.0,Everyone,Finance
+Lifestyle App #247,LIFESTYLE,4.0,39588,78.5,1000000,Free,0.0,Everyone,Lifestyle
+Communication App #248,COMMUNICATION,3.6,3795,16.6,100000,Free,0.0,Everyone 10+,Communication
+Communication App #249,COMMUNICATION,4.2,5,10.7,100,Free,0.0,Teen,Communication
+Game App #250,GAME,4.8,1057,8.3,50000,Free,0.0,Everyone,Game
+Photography App #251,PHOTOGRAPHY,3.4,13,49.6,500,Free,0.0,Teen,Photography
+Photography App #252,PHOTOGRAPHY,3.6,23,87.5,500,Free,0.0,Everyone,Photography
+Finance App #253,FINANCE,4.2,183,83.7,5000,Free,0.0,Mature 17+,Finance
+Finance App #254,FINANCE,4.2,3132,10.0,100000,Free,0.0,Everyone,Finance
+Family App #255,FAMILY,4.2,54,78.6,1000,Free,0.0,Everyone,Family
+Finance App #256,FINANCE,4.2,5,73.2,100,Free,0.0,Everyone,Finance
+Tools App #257,TOOLS,4.0,738,4.9,50000,Free,0.0,Everyone,Tools
+Productivity App #258,PRODUCTIVITY,3.7,203,12.3,5000,Paid,4.99,Everyone,Productivity
+Family App #259,FAMILY,4.8,23,22.1,1000,Free,0.0,Everyone,Family
+Family App #260,FAMILY,3.2,2674,15.7,100000,Paid,0.99,Everyone,Family
+Tools App #261,TOOLS,4.3,6,59.4,100,Free,0.0,Everyone,Tools
+Productivity App #262,PRODUCTIVITY,4.2,1991,14.6,50000,Free,0.0,Mature 17+,Productivity
+Tools App #263,TOOLS,4.5,3192,3.5,50000,Free,0.0,Everyone,Tools
+Medical App #264,MEDICAL,4.6,5766,20.0,100000,Paid,9.99,Everyone,Medical
+Medical App #265,MEDICAL,4.1,286,62.3,10000,Free,0.0,Everyone,Medical
+Photography App #266,PHOTOGRAPHY,4.0,352,25.0,5000,Free,0.0,Everyone,Photography
+Tools App #267,TOOLS,4.0,384,14.8,5000,Free,0.0,Everyone,Tools
+Communication App #268,COMMUNICATION,4.7,6,9.6,100,Free,0.0,Everyone,Communication
+Family App #269,FAMILY,5.0,28077,85.3,500000,Paid,4.99,Everyone,Family
+Game App #270,GAME,3.9,17,93.9,1000,Paid,9.99,Everyone,Game
+Communication App #271,COMMUNICATION,4.0,1498,3.6,100000,Paid,0.99,Everyone 10+,Communication
+Medical App #272,MEDICAL,4.3,172,74.2,5000,Free,0.0,Everyone,Medical
+Tools App #273,TOOLS,4.8,148,41.7,10000,Free,0.0,Everyone,Tools
+Game App #274,GAME,4.3,26863,37.8,500000,Free,0.0,Everyone,Game
+Game App #275,GAME,4.5,235,6.4,5000,Free,0.0,Everyone 10+,Game
+Medical App #276,MEDICAL,4.8,785979,58.2,10000000,Free,0.0,Everyone,Medical
+Family App #277,FAMILY,3.7,4,59.2,100,Free,0.0,Mature 17+,Family
+Productivity App #278,PRODUCTIVITY,3.2,72,62.2,1000,Free,0.0,Everyone,Productivity
+Photography App #279,PHOTOGRAPHY,5.0,25474,93.0,1000000,Free,0.0,Teen,Photography
+Photography App #280,PHOTOGRAPHY,4.5,324041,72.2,10000000,Free,0.0,Everyone,Photography
+Family App #281,FAMILY,3.9,227,80.3,5000,Paid,9.99,Teen,Family
+Medical App #282,MEDICAL,4.5,26417,12.3,500000,Free,0.0,Everyone,Medical
+Photography App #283,PHOTOGRAPHY,3.9,42309,3.4,1000000,Free,0.0,Everyone,Photography
+Medical App #284,MEDICAL,4.4,84,39.6,5000,Free,0.0,Teen,Medical
+Business App #285,BUSINESS,5.0,3626,52.3,100000,Free,0.0,Everyone,Business
+Lifestyle App #286,LIFESTYLE,4.7,3414,3.5,50000,Free,0.0,Teen,Lifestyle
+Medical App #287,MEDICAL,4.5,429223,48.9,10000000,Free,0.0,Everyone,Medical
+Productivity App #288,PRODUCTIVITY,4.4,12602,15.2,500000,Free,0.0,Everyone,Productivity
+Finance App #289,FINANCE,4.0,381,83.4,10000,Free,0.0,Everyone,Finance
+Tools App #290,TOOLS,3.6,5920,7.4,100000,Paid,1.99,Everyone,Tools
+Family App #291,FAMILY,3.8,14,33.4,1000,Free,0.0,Teen,Family
+Finance App #292,FINANCE,4.2,231,43.2,5000,Free,0.0,Everyone,Finance
+Photography App #293,PHOTOGRAPHY,4.2,5,70.5,100,Free,0.0,Everyone 10+,Photography
+Finance App #294,FINANCE,4.1,5,48.4,100,Free,0.0,Everyone,Finance
+Finance App #295,FINANCE,4.4,785752,17.8,10000000,Free,0.0,Teen,Finance
+Finance App #296,FINANCE,3.5,7,74.9,100,Free,0.0,Everyone,Finance
+Tools App #297,TOOLS,3.9,43,42.8,1000,Free,0.0,Mature 17+,Tools
+Productivity App #298,PRODUCTIVITY,3.1,67,86.1,5000,Free,0.0,Mature 17+,Productivity
+Communication App #299,COMMUNICATION,4.1,3729,46.2,50000,Free,0.0,Everyone,Communication
+Communication App #300,COMMUNICATION,3.7,1415,25.3,50000,Paid,14.99,Mature 17+,Communication
+Communication App #301,COMMUNICATION,4.8,1438,17.0,50000,Free,0.0,Mature 17+,Communication
+Productivity App #302,PRODUCTIVITY,4.1,197471,51.7,10000000,Free,0.0,Everyone,Productivity
+Photography App #303,PHOTOGRAPHY,3.7,35874,38.9,500000,Paid,1.99,Teen,Photography
+Communication App #304,COMMUNICATION,4.3,44613,93.1,1000000,Free,0.0,Everyone,Communication
+Photography App #305,PHOTOGRAPHY,3.6,38146,92.0,500000,Free,0.0,Everyone,Photography
+Game App #306,GAME,3.7,196,10.7,5000,Free,0.0,Everyone,Game
+Game App #307,GAME,4.7,32,53.3,500,Free,0.0,Everyone,Game
+Finance App #308,FINANCE,3.1,108021,90.0,5000000,Free,0.0,Teen,Finance
+Family App #309,FAMILY,3.8,4587,77.1,100000,Paid,2.99,Everyone,Family
+Tools App #310,TOOLS,4.2,7104,52.9,100000,Free,0.0,Teen,Tools
+Productivity App #311,PRODUCTIVITY,4.4,10656,26.1,500000,Free,0.0,Mature 17+,Productivity
+Communication App #312,COMMUNICATION,3.8,245293,53.6,5000000,Free,0.0,Everyone,Communication
+Tools App #313,TOOLS,4.8,3,44.3,100,Free,0.0,Everyone,Tools
+Tools App #314,TOOLS,4.0,242636,50.9,10000000,Free,0.0,Everyone,Tools
+Business App #315,BUSINESS,4.7,237,85.5,10000,Free,0.0,Everyone,Business
+Productivity App #316,PRODUCTIVITY,3.5,16,81.8,500,Free,0.0,Mature 17+,Productivity
+Family App #317,FAMILY,4.0,1144,85.2,50000,Free,0.0,Everyone,Family
+Medical App #318,MEDICAL,4.0,3887,81.8,50000,Free,0.0,Everyone,Medical
+Photography App #319,PHOTOGRAPHY,4.4,3261,94.7,100000,Free,0.0,Everyone 10+,Photography
+Photography App #320,PHOTOGRAPHY,3.9,491,51.3,10000,Free,0.0,Teen,Photography
+Family App #321,FAMILY,4.4,177,72.8,10000,Free,0.0,Everyone 10+,Family
+Family App #322,FAMILY,4.1,35045,48.2,1000000,Free,0.0,Teen,Family
+Lifestyle App #323,LIFESTYLE,4.3,19704,86.2,500000,Free,0.0,Teen,Lifestyle
+Family App #324,FAMILY,4.0,40485,55.9,1000000,Free,0.0,Teen,Family
+Tools App #325,TOOLS,4.8,7,18.7,500,Paid,9.99,Mature 17+,Tools
+Game App #326,GAME,3.6,1539,34.0,100000,Free,0.0,Mature 17+,Game
+Finance App #327,FINANCE,4.5,709,73.4,10000,Free,0.0,Teen,Finance
+Family App #328,FAMILY,4.3,2847,54.3,50000,Free,0.0,Everyone,Family
+Communication App #329,COMMUNICATION,3.7,194,76.7,5000,Free,0.0,Everyone,Communication
+Game App #330,GAME,4.0,7763,14.3,100000,Paid,14.99,Teen,Game
+Tools App #331,TOOLS,4.6,29,83.2,1000,Free,0.0,Everyone,Tools
+Finance App #332,FINANCE,3.9,83,24.9,5000,Free,0.0,Everyone,Finance
+Communication App #333,COMMUNICATION,4.5,145143,83.6,10000000,Free,0.0,Mature 17+,Communication
+Finance App #334,FINANCE,5.0,4719,80.0,100000,Free,0.0,Everyone,Finance
+Tools App #335,TOOLS,5.0,13,22.9,500,Free,0.0,Everyone,Tools
+Medical App #336,MEDICAL,4.6,56844,79.2,1000000,Paid,9.99,Mature 17+,Medical
+Game App #337,GAME,4.9,2606,85.1,50000,Paid,4.99,Everyone,Game
+Communication App #338,COMMUNICATION,4.0,2570,67.5,50000,Free,0.0,Everyone,Communication
+Photography App #339,PHOTOGRAPHY,4.1,278,90.4,5000,Free,0.0,Everyone,Photography
+Photography App #340,PHOTOGRAPHY,3.0,27193,9.1,500000,Free,0.0,Everyone,Photography
+Game App #341,GAME,4.1,4287,44.2,100000,Paid,14.99,Everyone,Game
+Tools App #342,TOOLS,4.4,41,46.4,1000,Free,0.0,Everyone,Tools
+Finance App #343,FINANCE,4.0,6,55.4,100,Free,0.0,Everyone,Finance
+Finance App #344,FINANCE,3.8,67167,28.8,1000000,Free,0.0,Teen,Finance
+Medical App #345,MEDICAL,4.0,5727,6.6,100000,Free,0.0,Everyone,Medical
+Game App #346,GAME,4.2,38,86.5,1000,Free,0.0,Teen,Game
+Game App #347,GAME,4.6,1283,83.1,100000,Free,0.0,Everyone,Game
+Productivity App #348,PRODUCTIVITY,4.5,179,13.7,5000,Free,0.0,Everyone,Productivity
+Productivity App #349,PRODUCTIVITY,4.8,194436,62.3,5000000,Free,0.0,Everyone,Productivity
+Tools App #350,TOOLS,3.8,225753,15.3,5000000,Free,0.0,Everyone,Tools
+Photography App #351,PHOTOGRAPHY,4.9,235,79.2,5000,Free,0.0,Everyone 10+,Photography
+Family App #352,FAMILY,4.6,41,10.3,1000,Paid,14.99,Everyone,Family
+Medical App #353,MEDICAL,4.1,6,8.7,100,Free,0.0,Everyone,Medical
+Family App #354,FAMILY,3.5,4797,82.2,100000,Free,0.0,Everyone,Family
+Family App #355,FAMILY,3.3,50,36.8,1000,Free,0.0,Everyone,Family
+Productivity App #356,PRODUCTIVITY,3.9,18109,17.9,500000,Free,0.0,Everyone,Productivity
+Productivity App #357,PRODUCTIVITY,4.1,4,37.5,100,Paid,0.99,Everyone,Productivity
+Game App #358,GAME,4.4,17760,22.7,500000,Paid,9.99,Everyone 10+,Game
+Game App #359,GAME,4.0,22,91.7,500,Paid,0.99,Everyone,Game
+Finance App #360,FINANCE,4.2,212017,4.7,10000000,Free,0.0,Teen,Finance
+Medical App #361,MEDICAL,4.0,362,46.3,10000,Free,0.0,Everyone,Medical
+Family App #362,FAMILY,4.7,1,58.6,100,Free,0.0,Everyone,Family
+Game App #363,GAME,3.6,2437,52.6,50000,Free,0.0,Teen,Game
+Photography App #364,PHOTOGRAPHY,4.3,339385,68.1,5000000,Free,0.0,Everyone,Photography
+Medical App #365,MEDICAL,4.2,343,56.2,10000,Free,0.0,Everyone,Medical
+Tools App #366,TOOLS,4.4,22,39.7,500,Free,0.0,Everyone 10+,Tools
+Family App #367,FAMILY,4.1,61157,16.2,1000000,Free,0.0,Mature 17+,Family
+Medical App #368,MEDICAL,4.9,19,57.4,1000,Free,0.0,Everyone,Medical
+Finance App #369,FINANCE,4.4,936,76.0,50000,Free,0.0,Everyone,Finance
+Lifestyle App #370,LIFESTYLE,4.0,7,49.9,100,Free,0.0,Everyone,Lifestyle
+Productivity App #371,PRODUCTIVITY,3.5,2422,73.0,100000,Free,0.0,Everyone,Productivity
+Business App #372,BUSINESS,3.8,7,93.2,100,Free,0.0,Everyone,Business
+Tools App #373,TOOLS,4.1,398,8.0,5000,Free,0.0,Everyone,Tools
+Game App #374,GAME,4.9,7186,84.2,500000,Free,0.0,Everyone,Game
+Photography App #375,PHOTOGRAPHY,4.7,970,30.2,50000,Paid,14.99,Everyone,Photography
+Family App #376,FAMILY,4.8,24,91.1,1000,Free,0.0,Everyone,Family
+Tools App #377,TOOLS,3.9,55010,70.8,5000000,Free,0.0,Teen,Tools
+Game App #378,GAME,4.6,37798,78.5,500000,Paid,9.99,Teen,Game
+Game App #379,GAME,4.1,30,28.4,500,Free,0.0,Everyone,Game
+Finance App #380,FINANCE,3.8,8884,77.3,500000,Free,0.0,Mature 17+,Finance
+Family App #381,FAMILY,4.4,1790,80.4,100000,Paid,2.99,Everyone,Family
+Finance App #382,FINANCE,4.6,3820,29.8,100000,Paid,1.99,Everyone,Finance
+Photography App #383,PHOTOGRAPHY,4.1,7342,32.2,100000,Free,0.0,Everyone,Photography
+Game App #384,GAME,4.6,123,22.4,10000,Free,0.0,Everyone,Game
+Business App #385,BUSINESS,4.5,4,78.5,100,Free,0.0,Everyone,Business
+Productivity App #386,PRODUCTIVITY,4.4,29,78.6,500,Free,0.0,Teen,Productivity
+Finance App #387,FINANCE,4.4,144,48.4,5000,Free,0.0,Everyone,Finance
+Family App #388,FAMILY,3.9,290082,39.7,10000000,Free,0.0,Everyone,Family
+Game App #389,GAME,4.5,363504,56.5,5000000,Free,0.0,Everyone,Game
+Finance App #390,FINANCE,5.0,15790,88.6,1000000,Free,0.0,Teen,Finance
+Tools App #391,TOOLS,4.7,36,42.6,500,Free,0.0,Mature 17+,Tools
+Communication App #392,COMMUNICATION,3.9,181,6.4,10000,Free,0.0,Everyone,Communication
+Business App #393,BUSINESS,4.0,356428,19.4,5000000,Free,0.0,Everyone,Business
+Game App #394,GAME,3.9,30863,12.2,1000000,Free,0.0,Teen,Game
+Medical App #395,MEDICAL,4.2,2014,44.8,50000,Paid,9.99,Everyone,Medical
+Tools App #396,TOOLS,4.5,6372,41.0,100000,Free,0.0,Teen,Tools
+Family App #397,FAMILY,4.4,55339,76.2,1000000,Free,0.0,Teen,Family
+Family App #398,FAMILY,4.5,27807,70.8,500000,Free,0.0,Everyone,Family
+Medical App #399,MEDICAL,4.3,1505,36.5,50000,Free,0.0,Everyone,Medical
+Finance App #400,FINANCE,4.1,287,79.8,10000,Free,0.0,Everyone,Finance
+Medical App #401,MEDICAL,4.1,19,51.6,500,Free,0.0,Everyone,Medical
+Communication App #402,COMMUNICATION,2.9,77444,50.5,1000000,Free,0.0,Everyone,Communication
+Productivity App #403,PRODUCTIVITY,4.4,1,4.1,100,Free,0.0,Teen,Productivity
+Business App #404,BUSINESS,4.2,2024,33.2,50000,Free,0.0,Everyone,Business
+Photography App #405,PHOTOGRAPHY,4.7,248,63.8,5000,Free,0.0,Everyone,Photography
+Productivity App #406,PRODUCTIVITY,5.0,48287,79.3,1000000,Free,0.0,Everyone,Productivity
+Communication App #407,COMMUNICATION,4.4,2611,46.3,50000,Free,0.0,Everyone,Communication
+Lifestyle App #408,LIFESTYLE,4.3,37995,75.1,500000,Free,0.0,Everyone 10+,Lifestyle
+Family App #409,FAMILY,3.6,1185,15.5,50000,Free,0.0,Everyone,Family
+Lifestyle App #410,LIFESTYLE,3.9,20,77.5,1000,Free,0.0,Everyone,Lifestyle
+Game App #411,GAME,4.8,238,8.1,5000,Free,0.0,Everyone,Game
+Lifestyle App #412,LIFESTYLE,3.8,448,23.8,10000,Free,0.0,Everyone,Lifestyle
+Game App #413,GAME,3.9,764349,91.5,10000000,Free,0.0,Everyone,Game
+Finance App #414,FINANCE,4.8,113107,44.9,5000000,Free,0.0,Everyone,Finance
+Finance App #415,FINANCE,3.8,796486,51.3,10000000,Free,0.0,Everyone,Finance
+Finance App #416,FINANCE,4.4,44,40.1,1000,Paid,4.99,Everyone 10+,Finance
+Business App #417,BUSINESS,5.0,151,60.1,10000,Free,0.0,Everyone 10+,Business
+Productivity App #418,PRODUCTIVITY,3.5,348528,67.1,10000000,Free,0.0,Everyone,Productivity
+Family App #419,FAMILY,4.2,30141,25.4,500000,Free,0.0,Everyone,Family
+Photography App #420,PHOTOGRAPHY,3.6,247,73.9,5000,Free,0.0,Everyone,Photography
+Business App #421,BUSINESS,4.5,130,61.2,5000,Free,0.0,Everyone,Business
+Communication App #422,COMMUNICATION,4.1,33289,26.0,500000,Free,0.0,Everyone,Communication
+Tools App #423,TOOLS,5.0,218542,61.3,5000000,Free,0.0,Everyone,Tools
+Tools App #424,TOOLS,3.5,3499,75.3,100000,Paid,2.99,Everyone,Tools
+Productivity App #425,PRODUCTIVITY,3.6,11,87.4,500,Free,0.0,Everyone,Productivity
+Lifestyle App #426,LIFESTYLE,4.6,12725,5.8,1000000,Free,0.0,Everyone,Lifestyle
+Family App #427,FAMILY,4.3,40562,56.2,1000000,Free,0.0,Everyone,Family
+Lifestyle App #428,LIFESTYLE,4.5,7258,90.0,100000,Free,0.0,Mature 17+,Lifestyle
+Medical App #429,MEDICAL,4.0,2432,57.2,100000,Free,0.0,Everyone,Medical
+Tools App #430,TOOLS,2.5,35504,29.8,1000000,Free,0.0,Mature 17+,Tools
+Game App #431,GAME,4.6,17341,78.8,500000,Free,0.0,Everyone,Game
+Game App #432,GAME,4.6,15151,88.6,500000,Free,0.0,Everyone,Game
+Medical App #433,MEDICAL,3.9,35352,69.4,1000000,Free,0.0,Everyone,Medical
+Photography App #434,PHOTOGRAPHY,4.3,130,2.6,5000,Free,0.0,Teen,Photography
+Finance App #435,FINANCE,4.5,197,30.5,5000,Free,0.0,Everyone,Finance
+Business App #436,BUSINESS,4.4,22,36.8,1000,Free,0.0,Mature 17+,Business
+Finance App #437,FINANCE,4.3,10236,37.7,500000,Free,0.0,Everyone,Finance
+Lifestyle App #438,LIFESTYLE,5.0,288313,50.4,10000000,Free,0.0,Everyone,Lifestyle
+Lifestyle App #439,LIFESTYLE,3.4,6,72.7,100,Free,0.0,Everyone,Lifestyle
+Game App #440,GAME,4.6,35,88.8,1000,Free,0.0,Teen,Game
+Communication App #441,COMMUNICATION,4.6,5862,69.9,100000,Free,0.0,Mature 17+,Communication
+Game App #442,GAME,4.2,34173,33.5,1000000,Paid,0.99,Everyone 10+,Game
+Tools App #443,TOOLS,3.3,4377,49.4,100000,Paid,0.99,Everyone,Tools
+Productivity App #444,PRODUCTIVITY,4.4,64,14.0,1000,Free,0.0,Teen,Productivity
+Game App #445,GAME,4.6,6719,53.0,100000,Free,0.0,Everyone 10+,Game
+Tools App #446,TOOLS,3.7,602,82.3,10000,Free,0.0,Everyone,Tools
+Tools App #447,TOOLS,4.3,574006,60.3,10000000,Free,0.0,Everyone,Tools
+Finance App #448,FINANCE,4.3,149,31.4,10000,Free,0.0,Mature 17+,Finance
+Family App #449,FAMILY,3.5,21,19.8,1000,Free,0.0,Everyone,Family
+Medical App #450,MEDICAL,4.5,388158,89.0,10000000,Free,0.0,Everyone,Medical
+Medical App #451,MEDICAL,3.9,5,33.3,100,Paid,2.99,Everyone,Medical
+Photography App #452,PHOTOGRAPHY,3.3,285,61.0,5000,Free,0.0,Everyone,Photography
+Tools App #453,TOOLS,4.2,39198,12.0,500000,Free,0.0,Everyone,Tools
+Business App #454,BUSINESS,4.1,253764,21.4,5000000,Free,0.0,Everyone,Business
+Photography App #455,PHOTOGRAPHY,5.0,270745,53.3,5000000,Free,0.0,Everyone,Photography
+Lifestyle App #456,LIFESTYLE,4.3,2204,88.1,100000,Free,0.0,Everyone,Lifestyle
+Business App #457,BUSINESS,4.9,28,3.9,1000,Paid,4.99,Everyone 10+,Business
+Lifestyle App #458,LIFESTYLE,4.8,1595,27.6,50000,Free,0.0,Everyone,Lifestyle
+Productivity App #459,PRODUCTIVITY,5.0,124579,89.4,5000000,Free,0.0,Everyone,Productivity
+Communication App #460,COMMUNICATION,3.7,18,7.2,500,Free,0.0,Everyone,Communication
+Productivity App #461,PRODUCTIVITY,4.5,37932,80.2,1000000,Free,0.0,Everyone,Productivity
+Finance App #462,FINANCE,4.2,4,71.2,100,Free,0.0,Everyone,Finance
+Productivity App #463,PRODUCTIVITY,3.4,40408,69.4,1000000,Free,0.0,Everyone,Productivity
+Communication App #464,COMMUNICATION,4.0,546381,24.9,10000000,Free,0.0,Teen,Communication
+Communication App #465,COMMUNICATION,4.4,109,25.5,10000,Free,0.0,Everyone,Communication
+Medical App #466,MEDICAL,4.5,17420,41.8,500000,Paid,1.99,Everyone,Medical
+Game App #467,GAME,3.5,35,38.0,500,Free,0.0,Everyone,Game
+Communication App #468,COMMUNICATION,3.6,229763,25.9,5000000,Free,0.0,Everyone 10+,Communication
+Communication App #469,COMMUNICATION,4.3,4,27.4,100,Paid,1.99,Everyone,Communication
+Finance App #470,FINANCE,4.6,32,44.5,500,Free,0.0,Everyone,Finance
+Finance App #471,FINANCE,3.6,324,41.3,5000,Free,0.0,Everyone,Finance
+Lifestyle App #472,LIFESTYLE,4.3,2259,7.7,50000,Paid,4.99,Everyone,Lifestyle
+Productivity App #473,PRODUCTIVITY,4.0,5,26.6,100,Free,0.0,Everyone,Productivity
+Medical App #474,MEDICAL,4.9,622,69.2,10000,Free,0.0,Teen,Medical
+Tools App #475,TOOLS,3.7,4,52.0,100,Paid,9.99,Everyone,Tools
+Lifestyle App #476,LIFESTYLE,3.8,67968,22.5,1000000,Free,0.0,Teen,Lifestyle
+Medical App #477,MEDICAL,3.5,131124,32.0,5000000,Free,0.0,Mature 17+,Medical
+Finance App #478,FINANCE,3.8,34,50.7,1000,Free,0.0,Teen,Finance
+Photography App #479,PHOTOGRAPHY,3.0,1092,29.9,100000,Free,0.0,Everyone,Photography
+Photography App #480,PHOTOGRAPHY,3.7,130,13.4,5000,Free,0.0,Everyone,Photography
+Communication App #481,COMMUNICATION,4.3,212,10.2,10000,Free,0.0,Everyone,Communication
+Lifestyle App #482,LIFESTYLE,5.0,173994,12.2,5000000,Free,0.0,Everyone,Lifestyle
+Business App #483,BUSINESS,3.5,253687,91.3,10000000,Free,0.0,Everyone,Business
+Business App #484,BUSINESS,3.9,4,66.9,100,Free,0.0,Teen,Business
+Game App #485,GAME,4.7,27,51.8,500,Free,0.0,Everyone,Game
+Game App #486,GAME,4.1,1999,66.5,100000,Free,0.0,Everyone,Game
+Medical App #487,MEDICAL,4.2,39,4.2,1000,Free,0.0,Teen,Medical
+Business App #488,BUSINESS,3.5,49,60.6,1000,Free,0.0,Everyone,Business
+Business App #489,BUSINESS,4.8,67497,80.5,1000000,Free,0.0,Everyone,Business
+Tools App #490,TOOLS,4.3,4159,19.5,100000,Free,0.0,Mature 17+,Tools
+Tools App #491,TOOLS,4.1,47923,92.0,1000000,Paid,14.99,Everyone,Tools
+Business App #492,BUSINESS,4.7,18,76.9,500,Free,0.0,Everyone,Business
+Lifestyle App #493,LIFESTYLE,4.3,52,67.9,1000,Free,0.0,Everyone,Lifestyle
+Productivity App #494,PRODUCTIVITY,4.1,3654,79.4,100000,Paid,2.99,Teen,Productivity
+Business App #495,BUSINESS,4.3,7,73.4,500,Paid,4.99,Everyone,Business
+Medical App #496,MEDICAL,5.0,5742,72.7,100000,Free,0.0,Everyone,Medical
+Tools App #497,TOOLS,4.0,723286,71.9,10000000,Free,0.0,Mature 17+,Tools
+Photography App #498,PHOTOGRAPHY,4.0,557,84.7,10000,Free,0.0,Everyone,Photography
+Finance App #499,FINANCE,5.0,185174,56.9,5000000,Free,0.0,Everyone,Finance
+Family App #500,FAMILY,3.9,227470,19.9,5000000,Free,0.0,Everyone,Family
