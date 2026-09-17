@@ -1,0 +1,52 @@
+[
+    {
+        "city": "Paris",
+        "iataCode": "PAR",
+        "lowestPrice": 54
+    },
+    {
+        "city": "Frankfurt",
+        "iataCode": "FRA",
+        "lowestPrice": 42
+    },
+    {
+        "city": "Tokyo",
+        "iataCode": "TYO",
+        "lowestPrice": 485
+    },
+    {
+        "city": "Hong Kong",
+        "iataCode": "HKG",
+        "lowestPrice": 551
+    },
+    {
+        "city": "Istanbul",
+        "iataCode": "IST",
+        "lowestPrice": 95
+    },
+    {
+        "city": "Kuala Lumpur",
+        "iataCode": "KUL",
+        "lowestPrice": 414
+    },
+    {
+        "city": "New York",
+        "iataCode": "NYC",
+        "lowestPrice": 240
+    },
+    {
+        "city": "San Francisco",
+        "iataCode": "SFO",
+        "lowestPrice": 260
+    },
+    {
+        "city": "Cape Town",
+        "iataCode": "CPT",
+        "lowestPrice": 378
+    },
+    {
+        "city": "Sydney",
+        "iataCode": "SYD",
+        "lowestPrice": 599
+    }
+]
