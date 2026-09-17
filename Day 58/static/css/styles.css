@@ -1,0 +1,80 @@
+/* Custom styling overrides for Day 58 Bootstrap 5 Web Showcase */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+.phone-mockup-wrapper {
+    display: inline-block;
+    padding: 20px;
+}
+
+.phone-frame {
+    width: 280px;
+    height: 480px;
+    background: #111;
+    border-radius: 40px;
+    border: 8px solid #222;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transform: rotate(6deg);
+    transition: transform 0.4s ease;
+}
+
+.phone-frame:hover {
+    transform: rotate(0deg) scale(1.05);
+}
+
+.phone-screen {
+    width: 100%;
+    height: 100%;
+    background: #f8fafc;
+    border-radius: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dog-avatar {
+    font-size: 4rem;
+}
+
+.icon-circle {
+    font-size: 2.5rem;
+}
+
+.feature-box {
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08) !important;
+}
+
+#testimonials {
+    background-color: #ef8172 !important;
+}
+
+#cta {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b) !important;
+}
