@@ -76,7 +76,7 @@ def main():
 
             elif choice == "6":
                 u = input(f"Username [{DEFAULT_USERNAME}]: ").strip() or DEFAULT_USERNAME
-                t = input("Token (min 8 chars): ").strip() or "secretToken12345"
+                t = input("Token (min 8 chars): ").strip() or "your_token_here"
                 create_user(u, t)
                 create_graph(u, t, DEFAULT_GRAPH_ID, "Daily Python Study")
 

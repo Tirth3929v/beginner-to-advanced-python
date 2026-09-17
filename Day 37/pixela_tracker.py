@@ -24,8 +24,8 @@ PIXELA_ENDPOINT = "https://pixe.la/v1/users"
 LOCAL_STORAGE = os.path.join(os.path.dirname(__file__), "habit_log.json")
 
 # Default User Credentials (can be overridden with environment variables)
-DEFAULT_USERNAME = os.environ.get("PIXELA_USERNAME", "tirth_coder")
-DEFAULT_TOKEN = os.environ.get("PIXELA_TOKEN", "a1b2c3d4e5f6g7h8")
+DEFAULT_USERNAME = os.environ.get("PIXELA_USERNAME", "my_pixela_username")
+DEFAULT_TOKEN = os.environ.get("PIXELA_TOKEN", "your_pixela_token_here")
 DEFAULT_GRAPH_ID = "graph1"
 
 
