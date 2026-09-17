@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+
+{% block title %}Design Principles & UX/UI Studio • Day 65{% endblock %}
+
+{% block content %}
+<div class="container">
+
+    <!-- HERO HEADER -->
+    <header class="text-center mb-5 pb-4 border-bottom border-secondary">
+        <span class="badge bg-info text-dark rounded-pill px-3 py-2 fw-bold mb-3">UI/UX ENGINEERING MASTERCLASS</span>
+        <h1 class="display-4 fw-bolder text-white mb-3">The Science &amp; Art of Beautiful Web Interfaces</h1>
+        <p class="lead text-secondary mx-auto" style="max-width: 750px;">
+            A deep-dive into mathematical typography scales, WCAG accessibility contrast formulas, color harmony theory, and human-centered design heuristics.
+        </p>
+    </header>
+
+    <!-- SECTION 1: COLOR THEORY & CONTRAST -->
+    <section id="color-theory" class="mb-5 pb-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h2 class="h3 fw-bold text-white mb-1">1. Color Harmony &amp; Contrast Calculus</h2>
+                <p class="text-secondary small mb-0">Testing 60-30-10 distribution rules and WCAG 2.1 contrast ratios</p>
+            </div>
+            <span class="badge bg-success rounded-pill px-3 py-2">WCAG 2.1 AA / AAA</span>
+        </div>
+
+        <div class="row g-4">
+            {% for name, p in palettes.items() %}
+            <div class="col-lg-4">
+                <div class="card-custom p-4 h-100" style="background-color: {{ p.bg }}; border: 1px solid rgba(255,255,255,0.15);">
+                    <h3 class="h5 fw-bold mb-3" style="color: {{ p.text }};">{{ name }}</h3>
+                    <div class="d-flex gap-2 mb-3">
+                        <div style="flex: 3; height: 45px; background: {{ p.primary }}; border-radius: 8px;" title="Primary 60%"></div>
+                        <div style="flex: 2; height: 45px; background: {{ p.card }}; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2);" title="Card/Secondary 30%"></div>
+                        <div style="flex: 1; height: 45px; background: {{ p.accent }}; border-radius: 8px;" title="Accent 10%"></div>
+                    </div>
+                    <div class="small p-3 rounded-3 mb-3" style="background: {{ p.card }}; color: {{ p.text }};">
+                        <strong>Text Sample</strong><br>
+                        <span style="color: {{ p.muted }};">Secondary muted subtitle text</span>
+                    </div>
+                    <div class="small" style="color: {{ p.muted }};">
+                        Primary Contrast: <strong>{{ p.contrast }}:1</strong> 
+                        {% if p.contrast >= 4.5 %}
+                        <span class="badge bg-success text-dark ms-1">Pass AA</span>
+                        {% else %}
+                        <span class="badge bg-warning text-dark ms-1">Caution</span>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- SECTION 2: MODULAR TYPOGRAPHY SCALE -->
+    <section id="typography" class="mb-5 pb-4">
+        <h2 class="h3 fw-bold text-white mb-1">2. Mathematical Typography Scale (Major Third - 1.25)</h2>
+        <p class="text-secondary small mb-4">Eliminates guesswork by locking all type sizes into a harmonious geometric progression</p>
+
+        <div class="card-custom p-4">
+            <div class="table-responsive">
+                <table class="table table-dark table-borderless align-middle mb-0">
+                    <thead>
+                        <tr class="text-secondary small text-uppercase border-bottom border-secondary">
+                            <th>Token / Role</th>
+                            <th>Size (PX)</th>
+                            <th>Size (REM)</th>
+                            <th>Visual Demonstration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for step in type_scale[::-1] %}
+                        <tr class="border-bottom border-secondary">
+                            <td><span class="badge bg-secondary font-monospace">{{ step.label }}</span></td>
+                            <td class="text-info font-monospace">{{ step.px }}px</td>
+                            <td class="text-secondary font-monospace">{{ step.rem }}rem</td>
+                            <td>
+                                <span style="font-size: {{ step.rem }}rem; font-weight: 700; color: #ffffff;">
+                                    Clean Typography Hierarchy
+                                </span>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: 10 USABILITY HEURISTICS -->
+    <section id="heuristics" class="mb-5">
+        <h2 class="h3 fw-bold text-white mb-1">3. Nielsen Norman Group: 10 Usability Heuristics</h2>
+        <p class="text-secondary small mb-4">Core interaction design principles observed by elite frontend engineers</p>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+                <div class="card-custom p-4 h-100">
+                    <div class="fs-2 mb-2">📡</div>
+                    <h3 class="h5 fw-bold text-white mb-2">1. Visibility of System Status</h3>
+                    <p class="text-secondary small mb-0">Keep users informed about what is going on through appropriate and timely feedback within a reasonable time.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-custom p-4 h-100">
+                    <div class="fs-2 mb-2">🌍</div>
+                    <h3 class="h5 fw-bold text-white mb-2">2. Match with the Real World</h3>
+                    <p class="text-secondary small mb-0">Speak the user's language with words, phrases, and concepts familiar to the user rather than internal system-oriented terms.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-custom p-4 h-100">
+                    <div class="fs-2 mb-2">↩️</div>
+                    <h3 class="h5 fw-bold text-white mb-2">3. User Control and Freedom</h3>
+                    <p class="text-secondary small mb-0">Users often make mistakes. Provide a clearly marked "emergency exit" to leave the unwanted action without an extended process.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-custom p-4 h-100">
+                    <div class="fs-2 mb-2">📏</div>
+                    <h3 class="h5 fw-bold text-white mb-2">4. Consistency &amp; Standards</h3>
+                    <p class="text-secondary small mb-0">Users should not have to wonder whether different words, situations, or actions mean the same thing across platform pages.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-custom p-4 h-100">
+                    <div class="fs-2 mb-2">🛡️</div>
+                    <h3 class="h5 fw-bold text-white mb-2">5. Error Prevention</h3>
+                    <p class="text-secondary small mb-0">Better than good error messages is a careful design that prevents a problem from occurring in the first place through smart defaults.</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card-custom p-4 h-100">
+                    <div class="fs-2 mb-2">🧠</div>
+                    <h3 class="h5 fw-bold text-white mb-2">6. Recognition Rather than Recall</h3>
+                    <p class="text-secondary small mb-0">Minimize the user's memory load by making elements, actions, and options visible. Information should be easily retrievable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+{% endblock %}

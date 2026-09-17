@@ -1,0 +1,28 @@
+/* Day 65: Design System & UX Principles Lab Styling */
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #090d16;
+    color: #f8fafc;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    letter-spacing: -0.5px;
+}
+
+.card-custom {
+    background: #12192b;
+    border: 1px solid rgba(148, 163, 184, 0.15);
+    border-radius: 18px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card-custom:hover {
+    border-color: rgba(56, 189, 248, 0.4);
+}
+
+.font-monospace {
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace !important;
+}
