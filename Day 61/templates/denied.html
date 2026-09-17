@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block title %}Access Denied • Security Checkpoint{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center text-center">
+    <div class="col-md-7">
+        <div class="card-custom p-5 border-danger">
+            <div class="display-2 text-danger mb-3">⛔</div>
+            <h1 class="h2 fw-bold text-danger mb-3">Access Denied</h1>
+            <p class="fs-5 text-light mb-4">
+                The credentials provided for <strong>{{ email }}</strong> do not match authorized administrative records.
+            </p>
+            <div class="p-3 bg-dark rounded-3 text-start small mb-4 font-monospace">
+                <span class="text-danger">[AUTH_FAIL]</span> Invalid identity or password signature.<br>
+                <span class="text-warning">[POLICY]</span> Form validation syntax passed, but backend rejection triggered.<br>
+                <span class="text-muted">[ACTION]</span> Try again using the test administrator credentials.
+            </div>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="{{ url_for('login') }}" class="btn btn-danger rounded-pill px-4">Try Again</a>
+                <a href="{{ url_for('home') }}" class="btn btn-outline-light rounded-pill px-4">Return Home</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

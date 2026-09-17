@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}WTForms Security Portal • Home{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-8 text-center">
+        <div class="card-custom p-5 my-4">
+            <div class="display-1 mb-3">🔐</div>
+            <h1 class="display-5 fw-bold mb-3 text-white">Advanced Form Security with WTForms</h1>
+            <p class="lead text-secondary mb-4">
+                Enforcing automated Cross-Site Request Forgery (CSRF) tokens, regex email structure verification, and length bounds before form processing.
+            </p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="{{ url_for('login') }}" class="btn btn-primary-custom px-5 py-3 fs-5 rounded-pill">
+                    🚀 Open Authentication Portal
+                </a>
+            </div>
+            <div class="mt-4 text-muted small">
+                Demo Credentials: <code>admin@email.com</code> / <code>12345678</code>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
