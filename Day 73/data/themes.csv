@@ -1,0 +1,21 @@
+id,name,parent_id
+1,Technic,
+18,Star Wars,
+158,Star Wars Episode 4/5/6,18.0
+209,Star Wars Clone Wars,18.0
+50,Town,
+52,City,50.0
+186,Castle,
+126,Space,
+246,Harry Potter,
+494,Friends,
+501,Gear,
+435,Ninjago,
+535,Collectible Minifigures,
+576,Marvel Super Heroes,
+577,DC Super Heroes,
+22,Creator,
+673,Duplo,
+411,Architecture,
+365,Classic,
+371,Theme Park,50.0

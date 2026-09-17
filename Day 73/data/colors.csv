@@ -1,0 +1,26 @@
+id,name,rgb,is_trans
+1,Black,05131D,f
+2,Blue,0055BF,f
+3,Green,237841,f
+4,Dark Turquoise,008F9B,f
+5,Red,C91A09,f
+6,Dark Pink,C870A0,f
+7,Brown,583927,f
+8,Light Gray,9BA19D,f
+9,Dark Gray,6D6E5C,f
+10,Very Light Gray,E4E4DA,f
+11,White,FFFFFF,f
+12,Trans-Clear,FCFCFC,t
+13,Trans-Black,635F52,t
+14,Trans-Dark Blue,0020A0,t
+15,Trans-Green,84B683,t
+16,Trans-Red,C91A09,t
+17,Trans-Neon Green,F8F184,t
+18,Trans-Very Lt Blue,C1DFF0,t
+19,Trans-Neon Yellow,DBAC34,t
+20,Trans-Light Purple,96709F,t
+21,Bright Light Blue,86C1E1,f
+22,Bright Light Yellow,FFF3A8,f
+23,Flat Dark Gold,B48455,f
+24,Metallic Silver,A5A9B4,f
+25,Glow In Dark White,D9D9D9,t
