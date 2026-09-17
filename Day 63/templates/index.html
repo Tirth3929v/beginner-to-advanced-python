@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}My Library • Virtual Bookshelf{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <div>
+                <h1 class="h2 fw-bold text-white mb-1">📖 Personal Reading Shelf</h1>
+                <p class="text-secondary small mb-0">Persistent storage managed by SQLite &amp; SQLAlchemy ORM</p>
+            </div>
+            <a href="{{ url_for('add') }}" class="btn btn-primary rounded-pill px-4 fw-bold">+ Add New Book</a>
+        </div>
+
+        {% if not all_books %}
+        <div class="card-custom p-5 text-center my-4">
+            <div class="display-3 mb-3">📭</div>
+            <h2 class="h3 fw-bold text-white mb-2">Your Library is Empty</h2>
+            <p class="text-secondary mb-4">You haven't added any books to your virtual collection yet.</p>
+            <div>
+                <a href="{{ url_for('add') }}" class="btn btn-primary rounded-pill px-5 py-3 fw-bold">
+                    Add Your First Book →
+                </a>
+            </div>
+        </div>
+        {% else %}
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            {% for book in all_books %}
+            <div class="col">
+                <div class="card-custom p-4 h-100 d-flex flex-column justify-content-between">
+                    <div>
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <span class="badge bg-primary rounded-pill px-3 py-2 fs-6">★ {{ book.rating }}/10</span>
+                            <a href="{{ url_for('delete', book_id=book.id) }}" class="btn btn-sm btn-outline-danger rounded-pill" onclick="return confirm('Delete this book?');">
+                                🗑️ Delete
+                            </a>
+                        </div>
+                        <h2 class="h4 fw-bold text-white mb-1">{{ book.title }}</h2>
+                        <p class="text-secondary fs-6 mb-3">By <span class="text-light">{{ book.author }}</span></p>
+                    </div>
+                    <div class="border-top border-secondary pt-3 mt-3 d-flex justify-content-between align-items-center">
+                        <small class="text-muted">Record ID: #{{ book.id }}</small>
+                        <a href="{{ url_for('edit', book_id=book.id) }}" class="text-info text-decoration-none small fw-bold">
+                            ✏️ Edit Rating →
+                        </a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

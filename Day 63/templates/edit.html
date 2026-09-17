@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}Edit Rating • {{ book.title }}{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-7 col-lg-5">
+        <div class="card-custom p-4 p-md-5">
+            <h1 class="h3 fw-bold text-white mb-2">Edit Rating</h1>
+            <p class="text-secondary small mb-4">Update database record for <strong>{{ book.title }}</strong></p>
+
+            <div class="p-3 bg-dark rounded-3 mb-4">
+                <div class="text-light fw-bold">{{ book.title }}</div>
+                <div class="text-muted small">Author: {{ book.author }}</div>
+                <div class="text-info small mt-1">Current Rating: ★ {{ book.rating }}/10</div>
+            </div>
+
+            <form method="POST" action="{{ url_for('edit', book_id=book.id) }}">
+                <div class="mb-4">
+                    <label for="rating" class="form-label text-light small fw-bold">New Rating (0 - 10)</label>
+                    <input type="number" step="0.1" min="0" max="10" class="form-control" id="rating" name="rating" value="{{ book.rating }}" required>
+                </div>
+
+                <div class="d-flex gap-2">
+                    <a href="{{ url_for('home') }}" class="btn btn-outline-secondary w-50 py-3 rounded-pill">Cancel</a>
+                    <button type="submit" class="btn btn-primary w-50 py-3 fw-bold rounded-pill">Update</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
