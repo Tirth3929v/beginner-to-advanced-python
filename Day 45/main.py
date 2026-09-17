@@ -1,12 +1,15 @@
 """
-Day 45: Web Scraping with BeautifulSoup
-Phase 2: Intermediate
-
-Key Concepts:
-BeautifulSoup4, lxml, HTML Parsing, CSS Selectors, Top 100 Movies Scraping
+Day 45 - Web Scraping with BeautifulSoup4 Studio
+Main launcher to run movie scrapers, Hacker News trending stories, and file exports.
 """
 
 import sys
+from art import logo
+from movie_scraper import (
+    scrape_hacker_news,
+    scrape_top_movies,
+    view_saved_movies,
+)
 
 # Ensure UTF-8 output encoding for Windows terminals
 if sys.platform == "win32":
@@ -17,28 +20,44 @@ if sys.platform == "win32":
         pass
 
 
-def banner():
-    """Prints the project banner."""
-    print("=" * 70)
-    print(f" 🚀 DAY 45: WEB SCRAPING WITH BEAUTIFULSOUP")
-    print(f" 📚 Phase 2: Intermediate | 100 Days of Code Python Bootcamp")
-    print("=" * 70)
-    print(f"Key Concepts: BeautifulSoup4, lxml, HTML Parsing, CSS Selectors, Top 100 Movies Scraping\n")
-
-
-def run_project():
-    """Core demonstration and project logic."""
-    banner()
-    print("Project architecture and starter modules initialized.")
-    print(f"To explore and extend this project, check README.md in Day 45/.\n")
-    print("Happy Coding! ✨\n")
+def display_hn_top_story():
+    story = scrape_hacker_news()
+    print("\n" + "=" * 65)
+    print(" 🔥 TOP TRENDING HACKER NEWS STORY")
+    print("=" * 65)
+    print(f" Headline:  {story['title']}")
+    print(f" Upvotes:   🔺 {story['score']} points")
+    print(f" Article:   {story['link']}")
+    print("=" * 65 + "\n")
 
 
 def main():
+    print(logo)
+    print("Welcome to Day 45 - Web Scraping with BeautifulSoup4 Studio! 🥣🌐\n")
+
     try:
-        run_project()
+        while True:
+            print("Select an option:")
+            print(" 1. 🎬 Scrape Empire Top 100 Movies to 'movies.txt'")
+            print(" 2. 📋 View Saved Movies from 'movies.txt'")
+            print(" 3. 🔥 Scrape Top Trending Hacker News Story")
+            print(" 4. 🚪 Exit\n")
+
+            choice = input("👉 Enter choice (1-4): ").strip()
+            if choice == "1":
+                scrape_top_movies()
+            elif choice == "2":
+                view_saved_movies()
+            elif choice == "3":
+                display_hn_top_story()
+            elif choice == "4":
+                print("\nExiting Web Scraping Studio... Happy scraping! 👋\n")
+                break
+            else:
+                print("⚠️ Invalid choice! Please select 1-4.\n")
+
     except (KeyboardInterrupt, EOFError):
-        print("\n\n👋 Exiting Day 45 gracefully... Goodbye!\n")
+        print("\n\n👋 Exiting Day 45 Studio gracefully... Goodbye!\n")
 
 
 if __name__ == "__main__":
