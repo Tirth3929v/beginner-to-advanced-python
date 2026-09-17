@@ -1,0 +1,395 @@
+year,category,prize,motivation,laureate_type,full_name,birth_date,birth_country,birth_city,sex,death_date
+1901,Physics,The Nobel Prize in Physics 1901,For foundational contributions to science and humanity,Individual,Wilhelm Conrad Röntgen,1845-03-27,Germany,City,Male,1923-02-10
+1903,Physics,The Nobel Prize in Physics 1903,For foundational contributions to science and humanity,Individual,"Marie Curie, née Sklodowska",1867-11-07,Poland,City,Female,1934-07-04
+1911,Chemistry,The Nobel Prize in Chemistry 1911,For foundational contributions to science and humanity,Individual,"Marie Curie, née Sklodowska",1867-11-07,Poland,City,Female,1934-07-04
+1921,Physics,The Nobel Prize in Physics 1921,For foundational contributions to science and humanity,Individual,Albert Einstein,1879-03-14,Germany,City,Male,1955-04-18
+1922,Physics,The Nobel Prize in Physics 1922,For foundational contributions to science and humanity,Individual,Niels Bohr,1885-10-07,Denmark,City,Male,1962-11-18
+1954,Chemistry,The Nobel Prize in Chemistry 1954,For foundational contributions to science and humanity,Individual,Linus Pauling,1901-02-28,United States,City,Male,1994-08-19
+1962,Peace,The Nobel Prize in Peace 1962,For foundational contributions to science and humanity,Individual,Linus Pauling,1901-02-28,United States,City,Male,1994-08-19
+1956,Physics,The Nobel Prize in Physics 1956,For foundational contributions to science and humanity,Individual,John Bardeen,1908-05-23,United States,City,Male,1991-01-30
+1972,Physics,The Nobel Prize in Physics 1972,For foundational contributions to science and humanity,Individual,John Bardeen,1908-05-23,United States,City,Male,1991-01-30
+1958,Chemistry,The Nobel Prize in Chemistry 1958,For foundational contributions to science and humanity,Individual,Frederick Sanger,1918-08-13,United Kingdom,City,Male,2013-11-19
+1980,Chemistry,The Nobel Prize in Chemistry 1980,For foundational contributions to science and humanity,Individual,Frederick Sanger,1918-08-13,United Kingdom,City,Male,2013-11-19
+2014,Peace,The Nobel Prize in Peace 2014,For foundational contributions to science and humanity,Individual,Malala Yousafzai,1997-07-12,Pakistan,City,Female,
+2019,Chemistry,The Nobel Prize in Chemistry 2019,For foundational contributions to science and humanity,Individual,John B. Goodenough,1922-07-25,Germany,City,Male,2023-06-25
+1964,Peace,The Nobel Prize in Peace 1964,For foundational contributions to science and humanity,Individual,Martin Luther King Jr.,1929-01-15,United States,City,Male,1968-04-04
+1979,Peace,The Nobel Prize in Peace 1979,For foundational contributions to science and humanity,Individual,Mother Teresa,1910-08-26,North Macedonia,City,Female,1997-09-05
+1993,Peace,The Nobel Prize in Peace 1993,For foundational contributions to science and humanity,Individual,Nelson Mandela,1918-07-18,South Africa,City,Male,2013-12-05
+1925,Literature,The Nobel Prize in Literature 1925,For foundational contributions to science and humanity,Individual,George Bernard Shaw,1856-07-26,Ireland,City,Male,1950-11-02
+1954,Literature,The Nobel Prize in Literature 1954,For foundational contributions to science and humanity,Individual,Ernest Hemingway,1899-07-21,United States,City,Male,1961-07-02
+1945,Medicine,The Nobel Prize in Medicine 1945,For foundational contributions to science and humanity,Individual,Alexander Fleming,1881-08-06,United Kingdom,City,Male,1955-03-11
+1962,Medicine,The Nobel Prize in Medicine 1962,For foundational contributions to science and humanity,Individual,James Watson,1928-04-06,United States,City,Male,
+1962,Medicine,The Nobel Prize in Medicine 1962,For foundational contributions to science and humanity,Individual,Francis Crick,1916-06-08,United Kingdom,City,Male,2004-07-28
+1901,Literature,The Nobel Prize in Literature 1901,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1901_Lit_0,1835-07-26,Russia,Metropolis,Male,1929-05-15
+1901,Medicine,The Nobel Prize in Medicine 1901,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1901_Med_1,1862-08-24,United States,Metropolis,Male,1940-05-15
+1901,Medicine,The Nobel Prize in Medicine 1901,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1901_Med_2,1847-05-01,United States,Metropolis,Male,1924-05-15
+1901,Literature,The Nobel Prize in Literature 1901,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1901_Lit_3,1866-12-16,Germany,Metropolis,Male,1952-05-15
+1902,Economics,The Nobel Prize in Economics 1902,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1902_Eco_0,1857-04-25,United States,Metropolis,Male,1950-05-15
+1902,Medicine,The Nobel Prize in Medicine 1902,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1902_Med_1,1848-02-04,Switzerland,Metropolis,Male,1945-05-15
+1902,Physics,The Nobel Prize in Physics 1902,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1902_Phy_2,1849-05-02,Russia,Metropolis,Male,1938-05-15
+1902,Literature,The Nobel Prize in Literature 1902,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1902_Lit_3,1833-08-15,United States,Metropolis,Male,1927-05-15
+1903,Economics,The Nobel Prize in Economics 1903,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1903_Eco_0,1838-06-22,United States,Metropolis,Male,1914-05-15
+1903,Chemistry,The Nobel Prize in Chemistry 1903,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1903_Che_1,1865-04-14,Germany,Metropolis,Male,1938-05-15
+1903,Economics,The Nobel Prize in Economics 1903,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1903_Eco_2,1845-02-15,United States,Metropolis,Male,1924-05-15
+1903,Peace,The Nobel Prize in Peace 1903,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1903_Pea_3,1843-09-15,Germany,Metropolis,Male,1928-05-15
+1904,Physics,The Nobel Prize in Physics 1904,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1904_Phy_0,1860-11-19,United States,Metropolis,Male,1935-05-15
+1904,Physics,The Nobel Prize in Physics 1904,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1904_Phy_1,1838-10-09,France,Metropolis,Male,1921-05-15
+1905,Physics,The Nobel Prize in Physics 1905,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1905_Phy_0,1847-08-05,Germany,Metropolis,Male,1925-05-15
+1905,Medicine,The Nobel Prize in Medicine 1905,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1905_Med_1,1866-03-01,Germany,Metropolis,Male,1956-05-15
+1905,Peace,The Nobel Prize in Peace 1905,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1905_Pea_2,1815-10-10,Germany,Metropolis,Male,1905-05-15
+1905,Literature,The Nobel Prize in Literature 1905,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1905_Lit_3,1860-04-05,United States,Metropolis,Female,1950-05-15
+1906,Peace,The Nobel Prize in Peace 1906,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1906_Pea_0,1845-03-22,United Kingdom,Metropolis,Male,1931-05-15
+1906,Literature,The Nobel Prize in Literature 1906,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1906_Lit_1,1837-12-12,Canada,Metropolis,Male,1921-05-15
+1906,Literature,The Nobel Prize in Literature 1906,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1906_Lit_2,1854-09-07,United Kingdom,Metropolis,Male,1933-05-15
+1906,Economics,The Nobel Prize in Economics 1906,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1906_Eco_3,1834-09-03,United States,Metropolis,Male,1913-05-15
+1907,Economics,The Nobel Prize in Economics 1907,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1907_Eco_0,1851-12-24,United Kingdom,Metropolis,Male,1930-05-15
+1907,Medicine,The Nobel Prize in Medicine 1907,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1907_Med_1,1857-01-26,United States,Metropolis,Male,1950-05-15
+1907,Literature,The Nobel Prize in Literature 1907,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1907_Lit_2,1855-08-17,United States,Metropolis,Male,1940-05-15
+1907,Medicine,The Nobel Prize in Medicine 1907,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1907_Med_3,1849-02-21,Germany,Metropolis,Male,1933-05-15
+1908,Economics,The Nobel Prize in Economics 1908,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1908_Eco_0,1856-06-24,United States,Metropolis,Male,1944-05-15
+1908,Peace,The Nobel Prize in Peace 1908,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1908_Pea_1,1857-01-09,Germany,Metropolis,Male,1939-05-15
+1908,Literature,The Nobel Prize in Literature 1908,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1908_Lit_2,1853-04-19,United Kingdom,Metropolis,Male,1941-05-15
+1909,Medicine,The Nobel Prize in Medicine 1909,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1909_Med_0,1845-08-01,Japan,Metropolis,Male,1909-05-15
+1909,Medicine,The Nobel Prize in Medicine 1909,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1909_Med_1,1841-10-16,United States,Metropolis,Male,1913-05-15
+1909,Physics,The Nobel Prize in Physics 1909,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1909_Phy_2,1839-07-09,United Kingdom,Metropolis,Male,1922-05-15
+1910,Medicine,The Nobel Prize in Medicine 1910,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1910_Med_0,1853-01-24,France,Metropolis,Male,1943-05-15
+1910,Literature,The Nobel Prize in Literature 1910,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1910_Lit_1,1848-03-16,United States,Metropolis,Male,1936-05-15
+1911,Physics,The Nobel Prize in Physics 1911,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1911_Phy_0,1850-06-03,Germany,Metropolis,Female,1922-05-15
+1911,Peace,The Nobel Prize in Peace 1911,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1911_Pea_1,1859-04-24,United States,Metropolis,Male,1931-05-15
+1911,Medicine,The Nobel Prize in Medicine 1911,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1911_Med_2,1854-07-22,Germany,Metropolis,Male,1929-05-15
+1912,Economics,The Nobel Prize in Economics 1912,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1912_Eco_0,1850-02-21,Italy,Metropolis,Male,1938-05-15
+1912,Economics,The Nobel Prize in Economics 1912,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1912_Eco_1,1856-03-04,Germany,Metropolis,Male,1942-05-15
+1912,Medicine,The Nobel Prize in Medicine 1912,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1912_Med_2,1853-05-06,Sweden,Metropolis,Male,1936-05-15
+1913,Literature,The Nobel Prize in Literature 1913,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1913_Lit_0,1849-03-01,United States,Metropolis,Male,1930-05-15
+1913,Literature,The Nobel Prize in Literature 1913,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1913_Lit_1,1858-02-25,United States,Metropolis,Male,1946-05-15
+1913,Chemistry,The Nobel Prize in Chemistry 1913,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1913_Che_2,1862-06-23,Canada,Metropolis,Male,1945-05-15
+1913,Chemistry,The Nobel Prize in Chemistry 1913,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1913_Che_3,1845-09-11,United States,Metropolis,Male,1923-05-15
+1914,Peace,The Nobel Prize in Peace 1914,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1914_Pea_0,1848-12-26,United States,Metropolis,Male,1918-05-15
+1914,Physics,The Nobel Prize in Physics 1914,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1914_Phy_1,1856-12-19,Germany,Metropolis,Male,1932-05-15
+1914,Literature,The Nobel Prize in Literature 1914,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1914_Lit_2,1867-10-22,Germany,Metropolis,Male,1958-05-15
+1915,Chemistry,The Nobel Prize in Chemistry 1915,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1915_Che_0,1860-12-05,United States,Metropolis,Female,1950-05-15
+1915,Physics,The Nobel Prize in Physics 1915,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1915_Phy_1,1856-06-13,Japan,Metropolis,Male,1942-05-15
+1915,Literature,The Nobel Prize in Literature 1915,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1915_Lit_2,1857-03-26,United Kingdom,Metropolis,Male,1935-05-15
+1916,Chemistry,The Nobel Prize in Chemistry 1916,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1916_Che_0,1851-05-01,United States,Metropolis,Male,1939-05-15
+1916,Chemistry,The Nobel Prize in Chemistry 1916,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1916_Che_1,1860-09-08,Canada,Metropolis,Male,1940-05-15
+1916,Peace,The Nobel Prize in Peace 1916,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1916_Pea_2,1853-06-23,United States,Metropolis,Male,1948-05-15
+1916,Medicine,The Nobel Prize in Medicine 1916,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1916_Med_3,1859-10-26,United States,Metropolis,Male,1955-05-15
+1917,Literature,The Nobel Prize in Literature 1917,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1917_Lit_0,1841-05-04,United States,Metropolis,Male,1917-05-15
+1917,Chemistry,The Nobel Prize in Chemistry 1917,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1917_Che_1,1857-08-05,United States,Metropolis,Female,1945-05-15
+1918,Literature,The Nobel Prize in Literature 1918,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1918_Lit_0,1847-12-18,Germany,Metropolis,Male,1933-05-15
+1918,Medicine,The Nobel Prize in Medicine 1918,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1918_Med_1,1852-03-01,Germany,Metropolis,Male,1934-05-15
+1919,Chemistry,The Nobel Prize in Chemistry 1919,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1919_Che_0,1865-03-18,United States,Metropolis,Male,1936-05-15
+1919,Medicine,The Nobel Prize in Medicine 1919,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1919_Med_1,1844-02-19,United States,Metropolis,Male,1919-05-15
+1920,Literature,The Nobel Prize in Literature 1920,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1920_Lit_0,1856-04-10,France,Metropolis,Male,1937-05-15
+1920,Peace,The Nobel Prize in Peace 1920,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1920_Pea_1,1861-02-17,Sweden,Metropolis,Male,1943-05-15
+1921,Economics,The Nobel Prize in Economics 1921,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1921_Eco_0,1850-03-09,Germany,Metropolis,Male,1938-05-15
+1921,Economics,The Nobel Prize in Economics 1921,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1921_Eco_1,1867-11-19,Canada,Metropolis,Male,1956-05-15
+1921,Physics,The Nobel Prize in Physics 1921,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1921_Phy_2,1866-12-14,United States,Metropolis,Male,1955-05-15
+1921,Literature,The Nobel Prize in Literature 1921,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1921_Lit_3,1879-09-20,Germany,Metropolis,Male,1957-05-15
+1922,Peace,The Nobel Prize in Peace 1922,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1922_Pea_0,1869-10-05,Sweden,Metropolis,Male,1950-05-15
+1922,Medicine,The Nobel Prize in Medicine 1922,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1922_Med_1,1856-06-07,Switzerland,Metropolis,Male,1948-05-15
+1922,Economics,The Nobel Prize in Economics 1922,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1922_Eco_2,1857-05-05,France,Metropolis,Male,1945-05-15
+1922,Economics,The Nobel Prize in Economics 1922,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1922_Eco_3,1851-07-25,Italy,Metropolis,Male,1929-05-15
+1923,Literature,The Nobel Prize in Literature 1923,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1923_Lit_0,1887-07-27,United States,Metropolis,Male,1966-05-15
+1923,Chemistry,The Nobel Prize in Chemistry 1923,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1923_Che_1,1867-12-26,Canada,Metropolis,Male,1948-05-15
+1924,Physics,The Nobel Prize in Physics 1924,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1924_Phy_0,1870-12-17,France,Metropolis,Male,1940-05-15
+1924,Physics,The Nobel Prize in Physics 1924,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1924_Phy_1,1864-11-05,Switzerland,Metropolis,Male,1953-05-15
+1925,Medicine,The Nobel Prize in Medicine 1925,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1925_Med_0,1851-01-21,Russia,Metropolis,Male,1940-05-15
+1925,Economics,The Nobel Prize in Economics 1925,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1925_Eco_1,1844-08-26,Germany,Metropolis,Male,1925-05-15
+1925,Literature,The Nobel Prize in Literature 1925,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1925_Lit_2,1873-05-09,Germany,Metropolis,Male,1947-05-15
+1925,Literature,The Nobel Prize in Literature 1925,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1925_Lit_3,1885-04-13,Italy,Metropolis,Male,1969-05-15
+1926,Peace,The Nobel Prize in Peace 1926,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1926_Pea_0,1880-08-18,Canada,Metropolis,Male,1976-05-15
+1926,Medicine,The Nobel Prize in Medicine 1926,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1926_Med_1,1855-01-11,United States,Metropolis,Female,1933-05-15
+1927,Chemistry,The Nobel Prize in Chemistry 1927,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1927_Che_0,1865-02-09,United States,Metropolis,Male,1949-05-15
+1927,Medicine,The Nobel Prize in Medicine 1927,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1927_Med_1,1865-05-05,United States,Metropolis,Female,1943-05-15
+1928,Medicine,The Nobel Prize in Medicine 1928,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1928_Med_0,1872-01-19,Germany,Metropolis,Male,1941-05-15
+1928,Peace,The Nobel Prize in Peace 1928,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1928_Pea_1,1858-12-08,Germany,Metropolis,Male,1952-05-15
+1928,Chemistry,The Nobel Prize in Chemistry 1928,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1928_Che_2,1874-01-22,United Kingdom,Metropolis,Male,1963-05-15
+1929,Economics,The Nobel Prize in Economics 1929,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1929_Eco_0,1863-02-11,Switzerland,Metropolis,Male,1955-05-15
+1929,Medicine,The Nobel Prize in Medicine 1929,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1929_Med_1,1869-02-15,Canada,Metropolis,Male,1952-05-15
+1930,Medicine,The Nobel Prize in Medicine 1930,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1930_Med_0,1855-12-23,Canada,Metropolis,Male,1937-05-15
+1930,Chemistry,The Nobel Prize in Chemistry 1930,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1930_Che_1,1888-08-05,Switzerland,Metropolis,Male,1969-05-15
+1930,Chemistry,The Nobel Prize in Chemistry 1930,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1930_Che_2,1867-11-19,Germany,Metropolis,Male,1938-05-15
+1930,Physics,The Nobel Prize in Physics 1930,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1930_Phy_3,1854-04-08,United Kingdom,Metropolis,Male,1930-05-15
+1931,Medicine,The Nobel Prize in Medicine 1931,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1931_Med_0,1871-03-19,Switzerland,Metropolis,Male,1955-05-15
+1931,Peace,The Nobel Prize in Peace 1931,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1931_Pea_1,1873-10-14,United States,Metropolis,Male,1946-05-15
+1932,Physics,The Nobel Prize in Physics 1932,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1932_Phy_0,1879-11-16,United Kingdom,Metropolis,Male,1962-05-15
+1932,Peace,The Nobel Prize in Peace 1932,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1932_Pea_1,1871-04-15,United States,Metropolis,Male,1946-05-15
+1932,Economics,The Nobel Prize in Economics 1932,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1932_Eco_2,1855-10-14,United States,Metropolis,Male,1939-05-15
+1933,Medicine,The Nobel Prize in Medicine 1933,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1933_Med_0,1843-02-26,France,Metropolis,Male,1933-05-15
+1933,Economics,The Nobel Prize in Economics 1933,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1933_Eco_1,1881-10-07,United Kingdom,Metropolis,Male,1951-05-15
+1933,Physics,The Nobel Prize in Physics 1933,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1933_Phy_2,1889-04-25,Japan,Metropolis,Male,1972-05-15
+1933,Literature,The Nobel Prize in Literature 1933,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1933_Lit_3,1848-06-02,United States,Metropolis,Male,1933-05-15
+1934,Physics,The Nobel Prize in Physics 1934,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1934_Phy_0,1867-02-27,Germany,Metropolis,Male,1946-05-15
+1934,Medicine,The Nobel Prize in Medicine 1934,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1934_Med_1,1878-06-06,Italy,Metropolis,Male,1958-05-15
+1934,Literature,The Nobel Prize in Literature 1934,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1934_Lit_2,1867-06-22,Switzerland,Metropolis,Male,1950-05-15
+1934,Physics,The Nobel Prize in Physics 1934,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1934_Phy_3,1869-11-08,United Kingdom,Metropolis,Male,1957-05-15
+1935,Medicine,The Nobel Prize in Medicine 1935,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1935_Med_0,1869-12-15,Japan,Metropolis,Male,1944-05-15
+1935,Physics,The Nobel Prize in Physics 1935,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1935_Phy_1,1887-04-13,Germany,Metropolis,Male,1971-05-15
+1935,Medicine,The Nobel Prize in Medicine 1935,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1935_Med_2,1855-10-12,Germany,Metropolis,Male,1935-05-15
+1936,Peace,The Nobel Prize in Peace 1936,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1936_Pea_0,1877-06-23,France,Metropolis,Male,1950-05-15
+1936,Medicine,The Nobel Prize in Medicine 1936,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1936_Med_1,1873-09-02,United States,Metropolis,Male,1950-05-15
+1936,Literature,The Nobel Prize in Literature 1936,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1936_Lit_2,1871-05-14,United States,Metropolis,Male,1956-05-15
+1937,Medicine,The Nobel Prize in Medicine 1937,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1937_Med_0,1875-04-25,United States,Metropolis,Male,1973-05-15
+1937,Peace,The Nobel Prize in Peace 1937,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1937_Pea_1,1860-03-06,Germany,Metropolis,Male,1938-05-15
+1937,Physics,The Nobel Prize in Physics 1937,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1937_Phy_2,1874-07-02,France,Metropolis,Male,1954-05-15
+1938,Peace,The Nobel Prize in Peace 1938,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1938_Pea_0,1893-04-15,Canada,Metropolis,Male,1984-05-15
+1938,Peace,The Nobel Prize in Peace 1938,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1938_Pea_1,1870-11-23,United Kingdom,Metropolis,Male,1960-05-15
+1938,Physics,The Nobel Prize in Physics 1938,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1938_Phy_2,1874-01-22,United States,Metropolis,Male,1958-05-15
+1939,Peace,The Nobel Prize in Peace 1939,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1939_Pea_0,1882-08-05,United States,Metropolis,Male,1956-05-15
+1939,Peace,The Nobel Prize in Peace 1939,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1939_Pea_1,1871-03-04,United States,Metropolis,Male,1963-05-15
+1939,Literature,The Nobel Prize in Literature 1939,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1939_Lit_2,1891-07-15,France,Metropolis,Male,1967-05-15
+1940,Economics,The Nobel Prize in Economics 1940,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1940_Eco_0,1872-11-12,Germany,Metropolis,Male,1946-05-15
+1940,Literature,The Nobel Prize in Literature 1940,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1940_Lit_1,1878-10-17,Germany,Metropolis,Male,1963-05-15
+1940,Literature,The Nobel Prize in Literature 1940,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1940_Lit_2,1884-10-14,United States,Metropolis,Male,1962-05-15
+1941,Physics,The Nobel Prize in Physics 1941,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1941_Phy_0,1876-09-21,United States,Metropolis,Male,1947-05-15
+1941,Physics,The Nobel Prize in Physics 1941,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1941_Phy_1,1891-04-25,United States,Metropolis,Male,1974-05-15
+1941,Chemistry,The Nobel Prize in Chemistry 1941,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1941_Che_2,1869-01-11,Canada,Metropolis,Male,1944-05-15
+1942,Literature,The Nobel Prize in Literature 1942,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1942_Lit_0,1894-05-24,Canada,Metropolis,Male,1978-05-15
+1942,Physics,The Nobel Prize in Physics 1942,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1942_Phy_1,1893-04-09,United States,Metropolis,Male,1979-05-15
+1942,Physics,The Nobel Prize in Physics 1942,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1942_Phy_2,1896-07-01,Germany,Metropolis,Male,1979-05-15
+1942,Peace,The Nobel Prize in Peace 1942,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1942_Pea_3,1888-01-13,United States,Metropolis,Male,1979-05-15
+1943,Economics,The Nobel Prize in Economics 1943,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1943_Eco_0,1873-02-02,Japan,Metropolis,Male,1946-05-15
+1943,Economics,The Nobel Prize in Economics 1943,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1943_Eco_1,1895-01-08,United Kingdom,Metropolis,Male,1978-05-15
+1944,Medicine,The Nobel Prize in Medicine 1944,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1944_Med_0,1896-07-23,United States,Metropolis,Male,1992-05-15
+1944,Literature,The Nobel Prize in Literature 1944,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1944_Lit_1,1872-03-24,Japan,Metropolis,Male,1944-05-15
+1945,Medicine,The Nobel Prize in Medicine 1945,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1945_Med_0,1877-03-01,United Kingdom,Metropolis,Male,1945-05-15
+1945,Literature,The Nobel Prize in Literature 1945,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1945_Lit_1,1877-08-14,United States,Metropolis,Male,1951-05-15
+1945,Medicine,The Nobel Prize in Medicine 1945,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1945_Med_2,1888-07-16,Russia,Metropolis,Male,1961-05-15
+1945,Chemistry,The Nobel Prize in Chemistry 1945,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1945_Che_3,1882-12-18,United States,Metropolis,Male,1953-05-15
+1946,Physics,The Nobel Prize in Physics 1946,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1946_Phy_0,1894-07-23,Japan,Metropolis,Male,1964-05-15
+1946,Literature,The Nobel Prize in Literature 1946,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1946_Lit_1,1893-05-12,Japan,Metropolis,Male,1985-05-15
+1946,Medicine,The Nobel Prize in Medicine 1946,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1946_Med_2,1877-01-18,Russia,Metropolis,Male,1958-05-15
+1947,Physics,The Nobel Prize in Physics 1947,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1947_Phy_0,1901-06-22,United States,Metropolis,Male,1988-05-15
+1947,Medicine,The Nobel Prize in Medicine 1947,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1947_Med_1,1885-05-11,United Kingdom,Metropolis,Male,1971-05-15
+1947,Economics,The Nobel Prize in Economics 1947,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1947_Eco_2,1904-01-05,Canada,Metropolis,Male,1990-05-15
+1947,Physics,The Nobel Prize in Physics 1947,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1947_Phy_3,1896-11-08,United Kingdom,Metropolis,Male,1970-05-15
+1948,Literature,The Nobel Prize in Literature 1948,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1948_Lit_0,1877-05-26,Germany,Metropolis,Male,1961-05-15
+1948,Economics,The Nobel Prize in Economics 1948,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1948_Eco_1,1892-04-19,United States,Metropolis,Male,1975-05-15
+1948,Chemistry,The Nobel Prize in Chemistry 1948,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1948_Che_2,1880-11-07,United States,Metropolis,Male,1961-05-15
+1949,Economics,The Nobel Prize in Economics 1949,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1949_Eco_0,1889-01-26,United Kingdom,Metropolis,Male,1972-05-15
+1949,Literature,The Nobel Prize in Literature 1949,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1949_Lit_1,1887-11-13,United Kingdom,Metropolis,Male,1970-05-15
+1949,Medicine,The Nobel Prize in Medicine 1949,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1949_Med_2,1890-11-08,United States,Metropolis,Male,1986-05-15
+1949,Chemistry,The Nobel Prize in Chemistry 1949,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1949_Che_3,1893-11-27,United Kingdom,Metropolis,Male,1969-05-15
+1950,Peace,The Nobel Prize in Peace 1950,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1950_Pea_0,1899-08-19,Sweden,Metropolis,Male,1981-05-15
+1950,Peace,The Nobel Prize in Peace 1950,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1950_Pea_1,1890-02-25,Sweden,Metropolis,Male,1972-05-15
+1951,Medicine,The Nobel Prize in Medicine 1951,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1951_Med_0,1883-05-07,Italy,Metropolis,Male,1966-05-15
+1951,Physics,The Nobel Prize in Physics 1951,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1951_Phy_1,1878-04-07,United States,Metropolis,Male,1957-05-15
+1951,Medicine,The Nobel Prize in Medicine 1951,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1951_Med_2,1891-03-12,United States,Metropolis,Male,1969-05-15
+1951,Literature,The Nobel Prize in Literature 1951,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1951_Lit_3,1917-07-12,United Kingdom,Metropolis,Male,2009-05-15
+1952,Physics,The Nobel Prize in Physics 1952,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1952_Phy_0,1891-10-12,United Kingdom,Metropolis,Male,1986-05-15
+1952,Economics,The Nobel Prize in Economics 1952,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1952_Eco_1,1897-03-27,United Kingdom,Metropolis,Male,1969-05-15
+1952,Economics,The Nobel Prize in Economics 1952,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1952_Eco_2,1898-09-16,United States,Metropolis,Male,1960-05-15
+1952,Literature,The Nobel Prize in Literature 1952,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1952_Lit_3,1909-05-01,Italy,Metropolis,Male,1976-05-15
+1953,Physics,The Nobel Prize in Physics 1953,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1953_Phy_0,1904-05-25,United States,Metropolis,Male,1977-05-15
+1953,Physics,The Nobel Prize in Physics 1953,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1953_Phy_1,1896-04-12,Canada,Metropolis,Male,1970-05-15
+1953,Medicine,The Nobel Prize in Medicine 1953,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1953_Med_2,1895-08-14,Russia,Metropolis,Male,1970-05-15
+1954,Economics,The Nobel Prize in Economics 1954,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1954_Eco_0,1893-05-19,Germany,Metropolis,Male,1978-05-15
+1954,Peace,The Nobel Prize in Peace 1954,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1954_Pea_1,1899-10-03,United States,Metropolis,Male,1980-05-15
+1954,Economics,The Nobel Prize in Economics 1954,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1954_Eco_2,1894-04-26,Japan,Metropolis,Male,1964-05-15
+1954,Physics,The Nobel Prize in Physics 1954,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1954_Phy_3,1887-08-03,United States,Metropolis,Male,1977-05-15
+1955,Economics,The Nobel Prize in Economics 1955,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1955_Eco_0,1897-08-03,Germany,Metropolis,Male,1988-05-15
+1955,Medicine,The Nobel Prize in Medicine 1955,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1955_Med_1,1890-05-11,United States,Metropolis,Male,1980-05-15
+1955,Medicine,The Nobel Prize in Medicine 1955,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1955_Med_2,1895-05-16,United States,Metropolis,Male,1971-05-15
+1955,Peace,The Nobel Prize in Peace 1955,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1955_Pea_3,1886-03-24,Switzerland,Metropolis,Male,1968-05-15
+1956,Medicine,The Nobel Prize in Medicine 1956,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1956_Med_0,1885-12-01,Switzerland,Metropolis,Male,1967-05-15
+1956,Medicine,The Nobel Prize in Medicine 1956,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1956_Med_1,1891-10-04,Switzerland,Metropolis,Male,1979-05-15
+1956,Medicine,The Nobel Prize in Medicine 1956,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1956_Med_2,1900-07-18,Sweden,Metropolis,Male,1975-05-15
+1957,Economics,The Nobel Prize in Economics 1957,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1957_Eco_0,1891-08-02,Sweden,Metropolis,Male,1957-05-15
+1957,Literature,The Nobel Prize in Literature 1957,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1957_Lit_1,1901-07-10,United States,Metropolis,Male,1977-05-15
+1957,Physics,The Nobel Prize in Physics 1957,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1957_Phy_2,1891-06-04,Russia,Metropolis,Male,1974-05-15
+1958,Literature,The Nobel Prize in Literature 1958,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1958_Lit_0,1897-01-22,United States,Metropolis,Male,1973-05-15
+1958,Chemistry,The Nobel Prize in Chemistry 1958,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1958_Che_1,1878-04-12,United States,Metropolis,Male,1958-05-15
+1958,Peace,The Nobel Prize in Peace 1958,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1958_Pea_2,1883-10-23,United States,Metropolis,Male,1964-05-15
+1959,Chemistry,The Nobel Prize in Chemistry 1959,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1959_Che_0,1914-07-15,United States,Metropolis,Male,1978-05-15
+1959,Peace,The Nobel Prize in Peace 1959,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1959_Pea_1,1897-06-11,France,Metropolis,Male,1974-05-15
+1959,Medicine,The Nobel Prize in Medicine 1959,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1959_Med_2,1918-10-06,Switzerland,Metropolis,Male,1995-05-15
+1960,Chemistry,The Nobel Prize in Chemistry 1960,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1960_Che_0,1913-12-16,United States,Metropolis,Female,2006-05-15
+1960,Medicine,The Nobel Prize in Medicine 1960,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1960_Med_1,1897-11-14,Russia,Metropolis,Male,1982-05-15
+1960,Chemistry,The Nobel Prize in Chemistry 1960,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1960_Che_2,1899-09-14,Sweden,Metropolis,Male,1986-05-15
+1960,Physics,The Nobel Prize in Physics 1960,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1960_Phy_3,1915-12-22,Germany,Metropolis,Male,1999-05-15
+1961,Peace,The Nobel Prize in Peace 1961,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1961_Pea_0,1906-08-21,United States,Metropolis,Male,1972-05-15
+1961,Chemistry,The Nobel Prize in Chemistry 1961,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1961_Che_1,1889-12-06,France,Metropolis,Male,1976-05-15
+1961,Physics,The Nobel Prize in Physics 1961,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1961_Phy_2,1904-09-14,United States,Metropolis,Male,1982-05-15
+1962,Economics,The Nobel Prize in Economics 1962,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1962_Eco_0,1905-12-01,Germany,Metropolis,Male,1987-05-15
+1962,Chemistry,The Nobel Prize in Chemistry 1962,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1962_Che_1,1916-06-07,United Kingdom,Metropolis,Male,1989-05-15
+1962,Chemistry,The Nobel Prize in Chemistry 1962,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1962_Che_2,1907-01-08,France,Metropolis,Male,1985-05-15
+1962,Medicine,The Nobel Prize in Medicine 1962,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1962_Med_3,1885-09-18,United States,Metropolis,Male,1978-05-15
+1963,Literature,The Nobel Prize in Literature 1963,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1963_Lit_0,1902-10-22,Japan,Metropolis,Male,1991-05-15
+1963,Chemistry,The Nobel Prize in Chemistry 1963,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1963_Che_1,1906-02-22,United Kingdom,Metropolis,Male,1978-05-15
+1963,Literature,The Nobel Prize in Literature 1963,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1963_Lit_2,1907-07-14,United States,Metropolis,Male,1992-05-15
+1964,Peace,The Nobel Prize in Peace 1964,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1964_Pea_0,1875-02-19,Sweden,Metropolis,Male,1964-05-15
+1964,Economics,The Nobel Prize in Economics 1964,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1964_Eco_1,1913-03-03,United States,Metropolis,Male,1994-05-15
+1965,Peace,The Nobel Prize in Peace 1965,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1965_Pea_0,1909-05-26,United Kingdom,Metropolis,Male,1993-05-15
+1965,Peace,The Nobel Prize in Peace 1965,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1965_Pea_1,1897-12-24,Japan,Metropolis,Male,1985-05-15
+1966,Physics,The Nobel Prize in Physics 1966,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1966_Phy_0,1907-04-02,United Kingdom,Metropolis,Male,1986-05-15
+1966,Chemistry,The Nobel Prize in Chemistry 1966,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1966_Che_1,1919-02-08,Sweden,Metropolis,Male,1988-05-15
+1966,Peace,The Nobel Prize in Peace 1966,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1966_Pea_2,1902-07-10,France,Metropolis,Male,1986-05-15
+1967,Economics,The Nobel Prize in Economics 1967,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1967_Eco_0,1909-06-15,United Kingdom,Metropolis,Male,1985-05-15
+1967,Economics,The Nobel Prize in Economics 1967,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1967_Eco_1,1919-11-25,United Kingdom,Metropolis,Male,2003-05-15
+1967,Physics,The Nobel Prize in Physics 1967,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1967_Phy_2,1907-12-24,United States,Metropolis,Male,1988-05-15
+1968,Medicine,The Nobel Prize in Medicine 1968,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1968_Med_0,1914-12-09,Switzerland,Metropolis,Male,1980-05-15
+1968,Physics,The Nobel Prize in Physics 1968,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1968_Phy_1,1921-11-05,United Kingdom,Metropolis,Male,1990-05-15
+1969,Peace,The Nobel Prize in Peace 1969,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1969_Pea_0,1914-06-12,United Kingdom,Metropolis,Male,2010-05-15
+1969,Medicine,The Nobel Prize in Medicine 1969,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1969_Med_1,1909-04-26,United States,Metropolis,Male,1985-05-15
+1969,Peace,The Nobel Prize in Peace 1969,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1969_Pea_2,1908-12-10,Germany,Metropolis,Male,1982-05-15
+1969,Literature,The Nobel Prize in Literature 1969,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1969_Lit_3,1900-08-15,Italy,Metropolis,Male,1984-05-15
+1970,Chemistry,The Nobel Prize in Chemistry 1970,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1970_Che_0,1918-05-01,United States,Metropolis,Male,2004-05-15
+1970,Peace,The Nobel Prize in Peace 1970,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1970_Pea_1,1905-07-23,United Kingdom,Metropolis,Male,1979-05-15
+1970,Chemistry,The Nobel Prize in Chemistry 1970,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1970_Che_2,1904-08-17,United States,Metropolis,Female,1981-05-15
+1970,Literature,The Nobel Prize in Literature 1970,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1970_Lit_3,1909-05-16,United States,Metropolis,Male,1997-05-15
+1971,Physics,The Nobel Prize in Physics 1971,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1971_Phy_0,1912-09-21,United States,Metropolis,Male,1996-05-15
+1971,Peace,The Nobel Prize in Peace 1971,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1971_Pea_1,1899-04-06,United States,Metropolis,Female,1986-05-15
+1972,Economics,The Nobel Prize in Economics 1972,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1972_Eco_0,1905-01-24,Canada,Metropolis,Male,1983-05-15
+1972,Economics,The Nobel Prize in Economics 1972,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1972_Eco_1,1923-07-15,United Kingdom,Metropolis,Female,1993-05-15
+1972,Peace,The Nobel Prize in Peace 1972,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1972_Pea_2,1902-03-12,United States,Metropolis,Male,2001-05-15
+1972,Economics,The Nobel Prize in Economics 1972,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1972_Eco_3,1902-09-03,United States,Metropolis,Male,1996-05-15
+1973,Chemistry,The Nobel Prize in Chemistry 1973,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1973_Che_0,1930-04-15,Russia,Metropolis,Male,2013-05-15
+1973,Medicine,The Nobel Prize in Medicine 1973,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1973_Med_1,1916-11-19,Sweden,Metropolis,Male,2001-05-15
+1974,Literature,The Nobel Prize in Literature 1974,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1974_Lit_0,1915-05-20,Canada,Metropolis,Male,1989-05-15
+1974,Economics,The Nobel Prize in Economics 1974,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1974_Eco_1,1934-04-18,United States,Metropolis,Male,2019-05-15
+1974,Chemistry,The Nobel Prize in Chemistry 1974,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1974_Che_2,1916-12-10,United States,Metropolis,Male,1996-05-15
+1974,Peace,The Nobel Prize in Peace 1974,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1974_Pea_3,1920-08-04,United States,Metropolis,Male,2006-05-15
+1975,Economics,The Nobel Prize in Economics 1975,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1975_Eco_0,1911-07-22,Germany,Metropolis,Female,1994-05-15
+1975,Economics,The Nobel Prize in Economics 1975,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1975_Eco_1,1910-08-26,United Kingdom,Metropolis,Male,2001-05-15
+1975,Physics,The Nobel Prize in Physics 1975,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1975_Phy_2,1928-05-04,Japan,Metropolis,Male,2004-05-15
+1976,Medicine,The Nobel Prize in Medicine 1976,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1976_Med_0,1911-10-01,Switzerland,Metropolis,Male,1998-05-15
+1976,Chemistry,The Nobel Prize in Chemistry 1976,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1976_Che_1,1917-05-17,United States,Metropolis,Male,2007-05-15
+1976,Economics,The Nobel Prize in Economics 1976,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1976_Eco_2,1907-10-09,United States,Metropolis,Male,2006-05-15
+1977,Peace,The Nobel Prize in Peace 1977,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1977_Pea_0,1926-06-07,Germany,Metropolis,Male,2021-05-15
+1977,Physics,The Nobel Prize in Physics 1977,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1977_Phy_1,1912-07-13,France,Metropolis,Male,2007-05-15
+1977,Economics,The Nobel Prize in Economics 1977,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1977_Eco_2,1934-01-27,United States,Metropolis,Male,
+1978,Physics,The Nobel Prize in Physics 1978,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1978_Phy_0,1914-12-27,Germany,Metropolis,Male,2003-05-15
+1978,Peace,The Nobel Prize in Peace 1978,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1978_Pea_1,1929-10-03,United States,Metropolis,Male,2016-05-15
+1978,Economics,The Nobel Prize in Economics 1978,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1978_Eco_2,1912-02-23,Germany,Metropolis,Male,2009-05-15
+1979,Literature,The Nobel Prize in Literature 1979,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1979_Lit_0,1929-10-25,United States,Metropolis,Male,2016-05-15
+1979,Literature,The Nobel Prize in Literature 1979,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1979_Lit_1,1925-08-22,United States,Metropolis,Male,1995-05-15
+1979,Peace,The Nobel Prize in Peace 1979,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1979_Pea_2,1912-04-06,France,Metropolis,Male,1984-05-15
+1980,Chemistry,The Nobel Prize in Chemistry 1980,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1980_Che_0,1919-04-02,Sweden,Metropolis,Male,2020-05-15
+1980,Peace,The Nobel Prize in Peace 1980,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1980_Pea_1,1928-05-02,United States,Metropolis,Male,1999-05-15
+1980,Medicine,The Nobel Prize in Medicine 1980,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1980_Med_2,1926-10-04,United States,Metropolis,Male,2014-05-15
+1981,Economics,The Nobel Prize in Economics 1981,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1981_Eco_0,1921-03-24,Canada,Metropolis,Male,2002-05-15
+1981,Chemistry,The Nobel Prize in Chemistry 1981,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1981_Che_1,1928-09-15,Switzerland,Metropolis,Male,2017-05-15
+1981,Peace,The Nobel Prize in Peace 1981,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1981_Pea_2,1914-02-25,United States,Metropolis,Male,1996-05-15
+1982,Economics,The Nobel Prize in Economics 1982,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1982_Eco_0,1928-03-09,United States,Metropolis,Male,2017-05-15
+1982,Economics,The Nobel Prize in Economics 1982,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1982_Eco_1,1917-12-13,United States,Metropolis,Male,1999-05-15
+1983,Economics,The Nobel Prize in Economics 1983,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1983_Eco_0,1923-07-19,Switzerland,Metropolis,Male,2003-05-15
+1983,Medicine,The Nobel Prize in Medicine 1983,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1983_Med_1,1924-02-24,Germany,Metropolis,Male,1994-05-15
+1983,Physics,The Nobel Prize in Physics 1983,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1983_Phy_2,1931-12-01,United Kingdom,Metropolis,Male,2008-05-15
+1983,Literature,The Nobel Prize in Literature 1983,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1983_Lit_3,1931-04-04,Germany,Metropolis,Male,2007-05-15
+1984,Chemistry,The Nobel Prize in Chemistry 1984,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1984_Che_0,1938-07-27,United States,Metropolis,Male,2018-05-15
+1984,Literature,The Nobel Prize in Literature 1984,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1984_Lit_1,1920-07-02,United Kingdom,Metropolis,Male,2001-05-15
+1984,Economics,The Nobel Prize in Economics 1984,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1984_Eco_2,1916-10-24,United Kingdom,Metropolis,Female,1991-05-15
+1985,Peace,The Nobel Prize in Peace 1985,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1985_Pea_0,1935-12-11,United States,Metropolis,Female,2016-05-15
+1985,Peace,The Nobel Prize in Peace 1985,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1985_Pea_1,1937-04-16,Japan,Metropolis,Female,2018-05-15
+1985,Literature,The Nobel Prize in Literature 1985,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1985_Lit_2,1915-10-21,Germany,Metropolis,Male,1999-05-15
+1985,Chemistry,The Nobel Prize in Chemistry 1985,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1985_Che_3,1932-01-02,Switzerland,Metropolis,Male,2022-05-15
+1986,Physics,The Nobel Prize in Physics 1986,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1986_Phy_0,1927-11-23,Japan,Metropolis,Female,2016-05-15
+1986,Chemistry,The Nobel Prize in Chemistry 1986,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1986_Che_1,1923-07-24,United States,Metropolis,Male,2002-05-15
+1987,Medicine,The Nobel Prize in Medicine 1987,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1987_Med_0,1934-08-25,United States,Metropolis,Male,2015-05-15
+1987,Medicine,The Nobel Prize in Medicine 1987,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1987_Med_1,1952-04-11,Germany,Metropolis,Male,
+1988,Medicine,The Nobel Prize in Medicine 1988,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1988_Med_0,1917-10-06,Germany,Metropolis,Male,2004-05-15
+1988,Literature,The Nobel Prize in Literature 1988,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1988_Lit_1,1937-09-09,Switzerland,Metropolis,Male,2011-05-15
+1988,Physics,The Nobel Prize in Physics 1988,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1988_Phy_2,1914-12-02,United Kingdom,Metropolis,Female,2010-05-15
+1988,Medicine,The Nobel Prize in Medicine 1988,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1988_Med_3,1937-08-27,United States,Metropolis,Female,2020-05-15
+1989,Literature,The Nobel Prize in Literature 1989,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1989_Lit_0,1926-12-19,United States,Metropolis,Male,2006-05-15
+1989,Economics,The Nobel Prize in Economics 1989,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1989_Eco_1,1942-07-17,United States,Metropolis,Male,
+1989,Literature,The Nobel Prize in Literature 1989,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1989_Lit_2,1932-08-14,Canada,Metropolis,Male,
+1990,Literature,The Nobel Prize in Literature 1990,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1990_Lit_0,1939-12-13,United States,Metropolis,Male,
+1990,Chemistry,The Nobel Prize in Chemistry 1990,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1990_Che_1,1942-12-13,United States,Metropolis,Male,2023-05-15
+1990,Economics,The Nobel Prize in Economics 1990,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1990_Eco_2,1949-03-23,United Kingdom,Metropolis,Male,
+1991,Economics,The Nobel Prize in Economics 1991,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1991_Eco_0,1938-10-26,Switzerland,Metropolis,Male,2023-05-15
+1991,Physics,The Nobel Prize in Physics 1991,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1991_Phy_1,1940-10-02,France,Metropolis,Male,2017-05-15
+1992,Physics,The Nobel Prize in Physics 1992,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1992_Phy_0,1944-09-16,Germany,Metropolis,Male,
+1992,Peace,The Nobel Prize in Peace 1992,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1992_Pea_1,1930-12-17,United Kingdom,Metropolis,Male,2013-05-15
+1992,Economics,The Nobel Prize in Economics 1992,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1992_Eco_2,1947-03-23,United States,Metropolis,Male,2020-05-15
+1992,Economics,The Nobel Prize in Economics 1992,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1992_Eco_3,1941-04-10,Switzerland,Metropolis,Male,2006-05-15
+1993,Medicine,The Nobel Prize in Medicine 1993,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1993_Med_0,1938-01-23,United States,Metropolis,Male,2010-05-15
+1993,Literature,The Nobel Prize in Literature 1993,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1993_Lit_1,1936-04-04,United Kingdom,Metropolis,Male,2015-05-15
+1993,Economics,The Nobel Prize in Economics 1993,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1993_Eco_2,1937-03-17,United Kingdom,Metropolis,Male,2019-05-15
+1994,Economics,The Nobel Prize in Economics 1994,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1994_Eco_0,1929-03-16,United States,Metropolis,Male,2007-05-15
+1994,Peace,The Nobel Prize in Peace 1994,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1994_Pea_1,1943-04-17,United States,Metropolis,Male,2023-05-15
+1994,Medicine,The Nobel Prize in Medicine 1994,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1994_Med_2,1944-01-17,Japan,Metropolis,Male,
+1994,Economics,The Nobel Prize in Economics 1994,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1994_Eco_3,1937-12-11,Germany,Metropolis,Male,2011-05-15
+1995,Physics,The Nobel Prize in Physics 1995,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1995_Phy_0,1932-03-13,Russia,Metropolis,Male,2014-05-15
+1995,Medicine,The Nobel Prize in Medicine 1995,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1995_Med_1,1934-03-21,United States,Metropolis,Male,2001-05-15
+1995,Medicine,The Nobel Prize in Medicine 1995,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1995_Med_2,1930-10-05,United States,Metropolis,Male,2007-05-15
+1995,Literature,The Nobel Prize in Literature 1995,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1995_Lit_3,1936-01-24,United States,Metropolis,Female,
+1996,Literature,The Nobel Prize in Literature 1996,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1996_Lit_0,1946-04-24,Sweden,Metropolis,Male,
+1996,Physics,The Nobel Prize in Physics 1996,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1996_Phy_1,1938-12-07,Russia,Metropolis,Female,2018-05-15
+1997,Literature,The Nobel Prize in Literature 1997,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1997_Lit_0,1948-09-13,Sweden,Metropolis,Male,2014-05-15
+1997,Economics,The Nobel Prize in Economics 1997,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1997_Eco_1,1962-07-06,United States,Metropolis,Male,
+1997,Chemistry,The Nobel Prize in Chemistry 1997,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1997_Che_2,1926-08-14,France,Metropolis,Male,2004-05-15
+1997,Physics,The Nobel Prize in Physics 1997,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1997_Phy_3,1933-05-24,United Kingdom,Metropolis,Male,2009-05-15
+1998,Medicine,The Nobel Prize in Medicine 1998,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1998_Med_0,1947-06-23,United States,Metropolis,Male,
+1998,Physics,The Nobel Prize in Physics 1998,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1998_Phy_1,1934-09-07,United Kingdom,Metropolis,Female,2021-05-15
+1999,Physics,The Nobel Prize in Physics 1999,For pioneering breakthroughs and discoveries,Individual,Female Laureate 1999_Phy_0,1950-05-05,United Kingdom,Metropolis,Female,2008-05-15
+1999,Chemistry,The Nobel Prize in Chemistry 1999,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1999_Che_1,1923-12-24,Germany,Metropolis,Male,2002-05-15
+1999,Economics,The Nobel Prize in Economics 1999,For pioneering breakthroughs and discoveries,Individual,Male Laureate 1999_Eco_2,1946-04-26,Japan,Metropolis,Male,2021-05-15
+2000,Literature,The Nobel Prize in Literature 2000,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2000_Lit_0,1937-06-20,Sweden,Metropolis,Male,2016-05-15
+2000,Literature,The Nobel Prize in Literature 2000,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2000_Lit_1,1925-01-02,United States,Metropolis,Male,2010-05-15
+2000,Physics,The Nobel Prize in Physics 2000,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2000_Phy_2,1948-03-06,United States,Metropolis,Male,2017-05-15
+2000,Literature,The Nobel Prize in Literature 2000,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2000_Lit_3,1942-11-24,United Kingdom,Metropolis,Male,2016-05-15
+2001,Literature,The Nobel Prize in Literature 2001,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2001_Lit_0,1930-08-18,Sweden,Metropolis,Male,2016-05-15
+2001,Chemistry,The Nobel Prize in Chemistry 2001,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2001_Che_1,1938-03-27,United Kingdom,Metropolis,Male,2011-05-15
+2001,Chemistry,The Nobel Prize in Chemistry 2001,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2001_Che_2,1946-08-05,United States,Metropolis,Male,
+2002,Peace,The Nobel Prize in Peace 2002,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2002_Pea_0,1942-01-13,United Kingdom,Metropolis,Male,
+2002,Peace,The Nobel Prize in Peace 2002,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2002_Pea_1,1954-11-05,Germany,Metropolis,Male,
+2002,Physics,The Nobel Prize in Physics 2002,For pioneering breakthroughs and discoveries,Individual,Female Laureate 2002_Phy_2,1948-05-03,United States,Metropolis,Female,
+2002,Peace,The Nobel Prize in Peace 2002,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2002_Pea_3,1940-09-21,United States,Metropolis,Male,
+2003,Economics,The Nobel Prize in Economics 2003,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2003_Eco_0,1938-08-26,Japan,Metropolis,Male,2013-05-15
+2003,Economics,The Nobel Prize in Economics 2003,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2003_Eco_1,1941-02-26,France,Metropolis,Male,
+2003,Medicine,The Nobel Prize in Medicine 2003,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2003_Med_2,1934-11-15,Germany,Metropolis,Male,2012-05-15
+2004,Medicine,The Nobel Prize in Medicine 2004,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2004_Med_0,1948-08-15,United States,Metropolis,Male,2024-05-15
+2004,Economics,The Nobel Prize in Economics 2004,For pioneering breakthroughs and discoveries,Individual,Female Laureate 2004_Eco_1,1950-03-04,Switzerland,Metropolis,Female,
+2004,Chemistry,The Nobel Prize in Chemistry 2004,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2004_Che_2,1934-04-12,United Kingdom,Metropolis,Male,2005-05-15
+2004,Physics,The Nobel Prize in Physics 2004,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2004_Phy_3,1957-01-06,Sweden,Metropolis,Male,
+2005,Medicine,The Nobel Prize in Medicine 2005,For pioneering breakthroughs and discoveries,Individual,Female Laureate 2005_Med_0,1963-04-21,Germany,Metropolis,Female,
+2005,Economics,The Nobel Prize in Economics 2005,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2005_Eco_1,1947-09-08,United States,Metropolis,Male,2021-05-15
+2005,Economics,The Nobel Prize in Economics 2005,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2005_Eco_2,1950-03-03,Canada,Metropolis,Male,
+2005,Chemistry,The Nobel Prize in Chemistry 2005,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2005_Che_3,1945-09-27,France,Metropolis,Male,
+2006,Physics,The Nobel Prize in Physics 2006,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2006_Phy_0,1943-04-08,United States,Metropolis,Male,2019-05-15
+2006,Physics,The Nobel Prize in Physics 2006,For pioneering breakthroughs and discoveries,Individual,Female Laureate 2006_Phy_1,1965-11-21,United States,Metropolis,Female,
+2006,Medicine,The Nobel Prize in Medicine 2006,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2006_Med_2,1953-12-08,United States,Metropolis,Male,
+2006,Chemistry,The Nobel Prize in Chemistry 2006,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2006_Che_3,1948-01-16,Germany,Metropolis,Male,
+2007,Literature,The Nobel Prize in Literature 2007,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2007_Lit_0,1947-05-16,Germany,Metropolis,Male,
+2007,Literature,The Nobel Prize in Literature 2007,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2007_Lit_1,1946-09-04,United States,Metropolis,Male,
+2007,Medicine,The Nobel Prize in Medicine 2007,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2007_Med_2,1941-08-12,Japan,Metropolis,Male,
+2008,Literature,The Nobel Prize in Literature 2008,For pioneering breakthroughs and discoveries,Individual,Female Laureate 2008_Lit_0,1958-06-08,United Kingdom,Metropolis,Female,
+2008,Peace,The Nobel Prize in Peace 2008,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2008_Pea_1,1959-07-04,Germany,Metropolis,Male,
+2008,Economics,The Nobel Prize in Economics 2008,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2008_Eco_2,1957-11-23,Sweden,Metropolis,Male,
+2009,Physics,The Nobel Prize in Physics 2009,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2009_Phy_0,1948-11-08,United States,Metropolis,Male,
+2009,Medicine,The Nobel Prize in Medicine 2009,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2009_Med_1,1952-08-14,United States,Metropolis,Male,2017-05-15
+2010,Peace,The Nobel Prize in Peace 2010,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2010_Pea_0,1939-01-08,United Kingdom,Metropolis,Male,2021-05-15
+2010,Medicine,The Nobel Prize in Medicine 2010,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2010_Med_1,1974-10-11,Japan,Metropolis,Male,
+2010,Economics,The Nobel Prize in Economics 2010,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2010_Eco_2,1948-08-21,Canada,Metropolis,Male,2023-05-15
+2010,Medicine,The Nobel Prize in Medicine 2010,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2010_Med_3,1951-01-08,Switzerland,Metropolis,Male,
+2011,Literature,The Nobel Prize in Literature 2011,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2011_Lit_0,1943-01-13,Switzerland,Metropolis,Male,2015-05-15
+2011,Chemistry,The Nobel Prize in Chemistry 2011,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2011_Che_1,1950-02-18,Russia,Metropolis,Male,
+2011,Chemistry,The Nobel Prize in Chemistry 2011,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2011_Che_2,1958-12-08,Germany,Metropolis,Male,
+2011,Literature,The Nobel Prize in Literature 2011,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2011_Lit_3,1940-02-09,Canada,Metropolis,Male,2015-05-15
+2012,Chemistry,The Nobel Prize in Chemistry 2012,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2012_Che_0,1964-09-25,Switzerland,Metropolis,Male,
+2012,Literature,The Nobel Prize in Literature 2012,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2012_Lit_1,1950-03-16,United States,Metropolis,Male,
+2012,Economics,The Nobel Prize in Economics 2012,For pioneering breakthroughs and discoveries,Individual,Female Laureate 2012_Eco_2,1969-01-23,United States,Metropolis,Female,
+2013,Chemistry,The Nobel Prize in Chemistry 2013,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2013_Che_0,1955-08-25,Canada,Metropolis,Male,
+2013,Economics,The Nobel Prize in Economics 2013,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2013_Eco_1,1935-07-09,Japan,Metropolis,Male,2013-05-15
+2014,Economics,The Nobel Prize in Economics 2014,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2014_Eco_0,1949-12-12,Sweden,Metropolis,Male,
+2014,Physics,The Nobel Prize in Physics 2014,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2014_Phy_1,1973-09-22,United Kingdom,Metropolis,Male,
+2015,Chemistry,The Nobel Prize in Chemistry 2015,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2015_Che_0,1965-10-18,United States,Metropolis,Male,
+2015,Literature,The Nobel Prize in Literature 2015,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2015_Lit_1,1951-01-06,United States,Metropolis,Male,
+2016,Chemistry,The Nobel Prize in Chemistry 2016,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2016_Che_0,1966-01-13,Japan,Metropolis,Male,
+2016,Chemistry,The Nobel Prize in Chemistry 2016,For pioneering breakthroughs and discoveries,Individual,Female Laureate 2016_Che_1,1951-04-26,United Kingdom,Metropolis,Female,
+2017,Economics,The Nobel Prize in Economics 2017,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2017_Eco_0,1960-10-05,United States,Metropolis,Male,
+2017,Chemistry,The Nobel Prize in Chemistry 2017,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2017_Che_1,1951-04-18,United States,Metropolis,Male,
+2017,Literature,The Nobel Prize in Literature 2017,For pioneering breakthroughs and discoveries,Individual,Female Laureate 2017_Lit_2,1968-01-13,United Kingdom,Metropolis,Female,
+2017,Economics,The Nobel Prize in Economics 2017,For pioneering breakthroughs and discoveries,Individual,Female Laureate 2017_Eco_3,1940-06-21,United Kingdom,Metropolis,Female,
+2018,Medicine,The Nobel Prize in Medicine 2018,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2018_Med_0,1967-05-14,United States,Metropolis,Male,
+2018,Literature,The Nobel Prize in Literature 2018,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2018_Lit_1,1971-08-03,United States,Metropolis,Male,
+2018,Peace,The Nobel Prize in Peace 2018,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2018_Pea_2,1956-09-24,Germany,Metropolis,Male,
+2018,Chemistry,The Nobel Prize in Chemistry 2018,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2018_Che_3,1958-05-04,United Kingdom,Metropolis,Male,
+2019,Medicine,The Nobel Prize in Medicine 2019,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2019_Med_0,1976-12-22,United States,Metropolis,Male,
+2019,Peace,The Nobel Prize in Peace 2019,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2019_Pea_1,1958-09-14,France,Metropolis,Male,
+2019,Chemistry,The Nobel Prize in Chemistry 2019,For pioneering breakthroughs and discoveries,Individual,Female Laureate 2019_Che_2,1956-12-20,Russia,Metropolis,Female,
+2020,Chemistry,The Nobel Prize in Chemistry 2020,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2020_Che_0,1979-11-11,United Kingdom,Metropolis,Male,
+2020,Physics,The Nobel Prize in Physics 2020,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2020_Phy_1,1962-12-19,United States,Metropolis,Male,
+2020,Literature,The Nobel Prize in Literature 2020,For pioneering breakthroughs and discoveries,Individual,Male Laureate 2020_Lit_2,1971-06-03,Japan,Metropolis,Male,
