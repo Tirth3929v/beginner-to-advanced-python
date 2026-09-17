@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Instant Pot Duo 7-in-1 Electric Pressure Cooker, 6 Quart",
+        "url": "https://www.amazon.com/dp/B00FLYWNYQ",
+        "target_price": 79.99,
+        "current_price": 69.95
+    },
+    {
+        "title": "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
+        "url": "https://www.amazon.com/dp/B09XS7JWHH",
+        "target_price": 348.0,
+        "current_price": 329.99
+    },
+    {
+        "title": "Logitech MX Master 3S Wireless Performance Mouse",
+        "url": "https://www.amazon.com/dp/B09HM94VDS",
+        "target_price": 99.99,
+        "current_price": 99.99
+    }
+]
