@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %}Clean Blog • Contact Me{% endblock %}
+{% block heading %}Contact Portal{% endblock %}
+{% block subheading %}Send an Inquiry via HTTP POST Request{% endblock %}
+
+{% block content %}
+<div class="container px-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-7">
+
+            {% if msg_sent %}
+            <div class="alert alert-success shadow-sm rounded-4 p-4 mb-5" role="alert">
+                <h4 class="alert-heading fw-bold mb-2">🎉 Successfully Sent Your Message!</h4>
+                <p class="mb-0">Thank you, <strong>{{ form_data.name }}</strong>! Your inquiry from <code>{{ form_data.email }}</code> has been processed and logged to the admin dashboard.</p>
+            </div>
+            {% endif %}
+
+            <div class="card shadow-sm border-0 rounded-4 p-4">
+                <h2 class="h4 fw-bold mb-3">Send a Message</h2>
+                <p class="text-muted mb-4">Fill out the form below. When submitted, the browser executes an <code>HTTP POST</code> to <code>/contact</code>.</p>
+                
+                <form action="{{ url_for('contact') }}" method="post">
+                    <div class="form-floating mb-3">
+                        <input class="form-control rounded-3" id="name" name="name" type="text" placeholder="Your Name" required />
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input class="form-control rounded-3" id="email" name="email" type="email" placeholder="name@example.com" required />
+                        <label for="email">Email Address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input class="form-control rounded-3" id="phone" name="phone" type="tel" placeholder="Phone Number" />
+                        <label for="phone">Phone Number</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <textarea class="form-control rounded-3" id="message" name="message" placeholder="Your Message" style="height: 10rem" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button class="btn btn-dark btn-lg px-5 rounded-pill w-100 fw-bold" type="submit">
+                        🚀 Submit Inquiry via HTTP POST
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+{% endblock %}
