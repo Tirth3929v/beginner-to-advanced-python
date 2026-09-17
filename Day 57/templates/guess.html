@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demographic Prediction for {{ name.title() }}</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0f172a; color: #f8fafc; text-align: center; margin: 0; padding: 50px 20px; }
+        .card { max-width: 550px; margin: 0 auto; background: #1e293b; border-radius: 16px; padding: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        h1 { color: #38bdf8; font-size: 2rem; }
+        .metric-box { background: #0f172a; border-radius: 12px; padding: 20px; margin: 20px 0; display: flex; justify-content: space-around; }
+        .metric-item { display: flex; flex-direction: column; }
+        .metric-value { font-size: 1.8rem; font-weight: bold; color: #f43f5e; margin-top: 5px; }
+        .metric-label { font-size: 0.85rem; color: #94a3b8; text-transform: uppercase; }
+        a { color: #38bdf8; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>🔮 Prediction for {{ name.title() }}</h1>
+        <p>Real-time demographic inference generated via Agify & Genderize APIs:</p>
+
+        <div class="metric-box">
+            <div class="metric-item">
+                <span class="metric-label">Predicted Gender</span>
+                <span class="metric-value">{{ gender.title() }}</span>
+            </div>
+            <div class="metric-item">
+                <span class="metric-label">Estimated Age</span>
+                <span class="metric-value">{{ age }} yrs</span>
+            </div>
+        </div>
+
+        <p><a href="{{ url_for('home') }}">⬅️ Return to Hub</a> | <a href="{{ url_for('guess_demographics', name='Angela') }}">Try "Angela"</a> | <a href="{{ url_for('guess_demographics', name='Marcus') }}">Try "Marcus"</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Demystifying Python Decorators & Higher-Order Functions",
+    "subtitle": "How wrapping functions dynamically transforms modern backend architectures",
+    "body": "Python decorators offer a clean, expressive syntax for modifying and enhancing function behaviors without altering their core source code. From Flask route registrations to caching, logging, and security authorization guards, understanding closures and *args/**kwargs unlocks production-grade software craftsmanship.",
+    "author": "Tirth Patel",
+    "date": "September 15, 2026"
+  },
+  {
+    "id": 2,
+    "title": "Scaling Browser Automation with Selenium & Headless Chrome",
+    "subtitle": "Best practices for anti-detection, explicit waits, and exception resilience",
+    "body": "Building reliable web scrapers requires handling dynamic JavaScript SPAs, shadow DOMs, and anti-bot rate limits. By tuning WebDriver options, randomizing keystroke intervals, and utilizing expected conditions over hardcoded sleeps, automated scrapers can achieve 99.9% pipeline uptime.",
+    "author": "Tirth Patel",
+    "date": "September 16, 2026"
+  },
+  {
+    "id": 3,
+    "title": "Server-Side Rendering (SSR) in Flask with Jinja2 Templating",
+    "subtitle": "Fast, SEO-friendly web applications without frontend framework bloat",
+    "body": "While single-page applications dominate modern headlines, server-side rendered pages with Jinja2 remain unmatched for blazing fast initial loads, exceptional SEO discoverability, and zero build-step simplicity. Dive into control loops, filter pipes, and template inheritance.",
+    "author": "Tirth Patel",
+    "date": "September 17, 2026"
+  }
+]

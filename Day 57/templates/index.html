@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 57: Jinja Templating Portal</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0f172a; color: #f8fafc; text-align: center; margin: 0; padding: 50px 20px; }
+        .card { max-width: 650px; margin: 0 auto; background: #1e293b; border-radius: 16px; padding: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        h1 { color: #38bdf8; font-size: 2.2rem; }
+        p { color: #94a3b8; font-size: 1.1rem; line-height: 1.6; }
+        .btn-group { display: flex; justify-content: center; gap: 15px; margin: 30px 0; flex-wrap: wrap; }
+        .btn { background: #38bdf8; color: #0f172a; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1rem; transition: transform 0.2s; }
+        .btn:hover { transform: translateY(-2px); background: #0ea5e9; }
+        .btn-secondary { background: #334155; color: #38bdf8; }
+        .btn-secondary:hover { background: #475569; }
+        footer { margin-top: 40px; font-size: 0.9rem; color: #64748b; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>✨ Jinja2 Dynamic Templating Hub</h1>
+        <p>Explore dynamic server-side rendering, API-driven demographic prediction, and multi-page blog architectures powered by Flask & Jinja.</p>
+        
+        <div class="btn-group">
+            <a class="btn" href="{{ url_for('get_blog') }}">📰 Explore Blog ({{ num_posts }} Articles)</a>
+            <a class="btn btn-secondary" href="{{ url_for('guess_demographics', name='Tirth') }}">🔮 Try Name Predictor</a>
+        </div>
+        
+        <footer>
+            <p>© {{ year }} Tirth Patel • Built with Flask & Jinja2 SSR Engine</p>
+        </footer>
+    </div>
+</body>
+</html>
