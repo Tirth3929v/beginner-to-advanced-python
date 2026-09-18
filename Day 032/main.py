@@ -45,11 +45,23 @@ def main():
                 list_birthdays()
             elif choice == "4":
                 name = input(" Name: ").strip()
+                if not name:
+                    print("⚠️ Name cannot be empty!\n")
+                    continue
                 email = input(" Email: ").strip()
-                year = int(input(" Birth Year (e.g. 2000): ").strip())
-                month = int(input(" Birth Month (1-12): ").strip())
-                day = int(input(" Birth Day (1-31): ").strip())
-                add_new_birthday(name, email, year, month, day)
+                if not email:
+                    email = f"{name.lower().replace(' ', '.')}@example.com"
+                try:
+                    year_inp = input(" Birth Year (default 2000): ").strip()
+                    year = int(year_inp) if year_inp else 2000
+                    month = int(input(" Birth Month (1-12): ").strip())
+                    day = int(input(" Birth Day (1-31): ").strip())
+                    if not (1 <= month <= 12 and 1 <= day <= 31):
+                        print("⚠️ Invalid month or day!\n")
+                        continue
+                    add_new_birthday(name, email, year, month, day)
+                except ValueError:
+                    print("⚠️ Please enter valid numbers for year, month, and day!\n")
             elif choice == "5":
                 q = get_random_quote()
                 print(f"\n✨ Quote: {q}\n")

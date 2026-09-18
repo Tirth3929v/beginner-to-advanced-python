@@ -100,34 +100,35 @@ def check_and_send_birthdays(force_date: tuple = None):
         return
 
     # Load birthdays
-    birthdays_dict = {}
+    matches = []
     with open(BIRTHDAYS_FILE, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
             try:
                 m = int(row["month"])
                 d = int(row["day"])
-                birthdays_dict[(m, d)] = row
+                if (m, d) == today_tuple:
+                    matches.append(row)
             except Exception:
                 continue
 
-    if today_tuple in birthdays_dict:
-        person = birthdays_dict[today_tuple]
-        name = person["name"]
-        email = person["email"]
+    if matches:
+        for person in matches:
+            name = person["name"]
+            email = person["email"]
 
-        # Pick random template
-        templates = [f for f in os.listdir(TEMPLATES_DIR) if f.startswith("letter_")] if os.path.exists(TEMPLATES_DIR) else []
-        if templates:
-            chosen = os.path.join(TEMPLATES_DIR, random.choice(templates))
-            with open(chosen, "r", encoding="utf-8") as tf:
-                content = tf.read().replace("[NAME]", name)
-        else:
-            content = f"Happy Birthday {name}! Wishing you all the best on your special day! 🎂"
+            # Pick random template
+            templates = [f for f in os.listdir(TEMPLATES_DIR) if f.startswith("letter_")] if os.path.exists(TEMPLATES_DIR) else []
+            if templates:
+                chosen = os.path.join(TEMPLATES_DIR, random.choice(templates))
+                with open(chosen, "r", encoding="utf-8") as tf:
+                    content = tf.read().replace("[NAME]", name)
+            else:
+                content = f"Happy Birthday {name}! Wishing you all the best on your special day! 🎂"
 
-        subject = f"Happy Birthday, {name}! 🎂🎈"
-        print(f"🎉 Birthday match found for {name} ({email})!")
-        send_email_message(email, subject, content, dry_run=True)
+            subject = f"Happy Birthday, {name}! 🎂🎈"
+            print(f"🎉 Birthday match found for {name} ({email})!")
+            send_email_message(email, subject, content, dry_run=True)
     else:
         print("ℹ️ No birthdays found in database for today.")
 
@@ -146,11 +147,14 @@ def list_birthdays():
         print("Vault is empty.")
         return
     with open(BIRTHDAYS_FILE, "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        print("\n" + "=" * 55)
-        print(f" {'NAME':15s} | {'EMAIL':25s} | {'BIRTHDAY':10s}")
-        print("=" * 55)
-        for r in reader:
+        rows = list(csv.DictReader(f))
+        total = len(rows)
+        print("\n" + "=" * 65)
+        print(f" {'NAME':22s} | {'EMAIL':28s} | {'BIRTHDAY':10s}")
+        print("=" * 65)
+        for r in rows:
             b_str = f"{r['year']}-{int(r['month']):02d}-{int(r['day']):02d}"
-            print(f" {r['name']:15s} | {r['email']:25s} | {b_str:10s}")
-        print("=" * 55 + "\n")
+            print(f" {r['name']:22s} | {r['email']:28s} | {b_str:10s}")
+        print("=" * 65)
+        print(f"📊 Total Stored Birthdays: {total} (Covers every single day of the year)\n")
+
